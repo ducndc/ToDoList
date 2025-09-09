@@ -1,6 +1,0 @@
-<RCC>
-  <qresource prefix="/">
-    <file alias="/qt/qml/CustomControls">/home/ont/Documents/ToDoList/build/imports/CustomControls</file>
-
-  </qresource>
-</RCC>

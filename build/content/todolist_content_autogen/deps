@@ -1,9 +1,0 @@
-todolist_content_autogen/timestamp: \
-	/home/ont/Documents/ToDoList/build/content/todolist_contentplugin_contentPlugin_in.cpp \
-	/home/ont/Documents/ToDoList/content/CMakeLists.txt \
-	/home/ont/Qt/6.9.1/gcc_64/lib/cmake/Qt6Core/Qt6CoreConfigureFileTemplate.in \
-	/home/ont/Qt/6.9.1/gcc_64/lib/cmake/Qt6Core/Qt6CoreResourceInit.in.cpp \
-	/home/ont/Qt/6.9.1/gcc_64/lib/cmake/Qt6Qml/Qt6QmlModuleDirMappingTemplate.qrc.in \
-	/home/ont/Qt/6.9.1/gcc_64/lib/cmake/Qt6Qml/Qt6QmlPluginTemplate.cpp.in \
-	/home/ont/Qt/6.9.1/gcc_64/lib/cmake/Qt6Qml/Qt6qmldirTemplate.cmake.in \
-	/home/ont/Qt/Tools/CMake/bin/cmake

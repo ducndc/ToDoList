@@ -1,6 +1,0 @@
-<RCC>
-  <qresource prefix="/qt/qml/Main">
-    <file alias="qmldir">/home/ont/Documents/ToDoList/Main/qmldir</file>
-  </qresource>
-</RCC>
-

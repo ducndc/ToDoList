@@ -1,6 +1,0 @@
-<RCC>
-  <qresource prefix="/">
-    <file alias="/qt/qml/Main">/home/ont/Documents/ToDoList/build/Main</file>
-
-  </qresource>
-</RCC>
