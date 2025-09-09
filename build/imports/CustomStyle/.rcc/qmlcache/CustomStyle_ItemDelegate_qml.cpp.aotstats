@@ -1,0 +1,116 @@
+[
+    {
+        "moduleFiles": [
+            {
+                "entries": [
+                    {
+                        "codegenSuccessful": true,
+                        "column": 20,
+                        "durationMicroseconds": 468,
+                        "errorMessage": "",
+                        "functionName": "implicitWidth",
+                        "line": 12
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 21,
+                        "durationMicroseconds": 553,
+                        "errorMessage": "",
+                        "functionName": "implicitHeight",
+                        "line": 14
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 17,
+                        "durationMicroseconds": 175,
+                        "errorMessage": "",
+                        "functionName": "color",
+                        "line": 23
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 18,
+                        "durationMicroseconds": 95,
+                        "errorMessage": "",
+                        "functionName": "spacing",
+                        "line": 26
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 19,
+                        "durationMicroseconds": 93,
+                        "errorMessage": "",
+                        "functionName": "mirrored",
+                        "line": 27
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 18,
+                        "durationMicroseconds": 87,
+                        "errorMessage": "",
+                        "functionName": "display",
+                        "line": 28
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 20,
+                        "durationMicroseconds": 444,
+                        "errorMessage": "",
+                        "functionName": "alignment",
+                        "line": 29
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 15,
+                        "durationMicroseconds": 117,
+                        "errorMessage": "",
+                        "functionName": "icon",
+                        "line": 31
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 15,
+                        "durationMicroseconds": 84,
+                        "errorMessage": "",
+                        "functionName": "text",
+                        "line": 32
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 15,
+                        "durationMicroseconds": 101,
+                        "errorMessage": "",
+                        "functionName": "font",
+                        "line": 33
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 16,
+                        "durationMicroseconds": 2040,
+                        "errorMessage": "",
+                        "functionName": "color",
+                        "line": 34
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 16,
+                        "durationMicroseconds": 132,
+                        "errorMessage": "",
+                        "functionName": "color",
+                        "line": 38
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 23,
+                        "durationMicroseconds": 304,
+                        "errorMessage": "",
+                        "functionName": "color",
+                        "line": 39
+                    }
+                ],
+                "filePath": "/home/ont/Documents/ToDoList/imports/CustomStyle/ItemDelegate.qml"
+            }
+        ],
+        "moduleId": "CustomStyle(CustomStyle)"
+    }
+]

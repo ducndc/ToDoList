@@ -1,0 +1,10 @@
+-I
+/home/ont/Documents/ToDoList/imports
+-I
+/home/ont/Qt/6.9.1/gcc_64/qml
+--resource
+/home/ont/Documents/ToDoList/imports/CustomStyle/.qt/rcc/qmake_CustomStyle.qrc
+--resource
+/home/ont/Documents/ToDoList/imports/CustomStyle/.qt/rcc/CustomStyle_raw_qml_0.qrc
+--module
+CustomStyle

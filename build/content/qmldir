@@ -1,0 +1,36 @@
+module content
+linktarget todolist_contentplugin
+optional plugin todolist_contentplugin
+classname contentPlugin
+typeinfo todolist_content.qmltypes
+prefer :/qt/qml/content/
+App 1.0 App.qml
+CalendarView 1.0 CalendarView.qml
+CalendarViewForm 1.0 CalendarViewForm.ui.qml
+Clock 1.0 Clock.qml
+ClockForm 1.0 ClockForm.ui.qml
+ClockView 1.0 ClockView.qml
+ClockViewForm 1.0 ClockViewForm.ui.qml
+FontSizeSettings 1.0 FontSizeSettings.qml
+FontSizeSettingsForm 1.0 FontSizeSettingsForm.ui.qml
+HomePage 1.0 HomePage.qml
+HomePageForm 1.0 HomePageForm.ui.qml
+MaxTasksSettings 1.0 MaxTasksSettings.qml
+MaxTasksSettingsForm 1.0 MaxTasksSettingsForm.ui.qml
+NavBar 1.0 NavBar.qml
+NavBarForm 1.0 NavBarForm.ui.qml
+NewTask 1.0 NewTask.qml
+NewTaskForm 1.0 NewTaskForm.ui.qml
+OtherSettings 1.0 OtherSettings.qml
+OtherSettingsForm 1.0 OtherSettingsForm.ui.qml
+QuickTaskField 1.0 QuickTaskField.qml
+QuickTaskFieldForm 1.0 QuickTaskFieldForm.ui.qml
+SettingsView 1.0 SettingsView.qml
+SettingsViewForm 1.0 SettingsViewForm.ui.qml
+StyleSettings 1.0 StyleSettings.qml
+StyleSettingsForm 1.0 StyleSettingsForm.ui.qml
+TasksList 1.0 TasksList.qml
+TasksListForm 1.0 TasksListForm.ui.qml
+TasksListsView 1.0 TasksListsView.qml
+TasksListsViewForm 1.0 TasksListsViewForm.ui.qml
+

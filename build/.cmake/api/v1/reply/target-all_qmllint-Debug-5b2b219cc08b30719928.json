@@ -1,0 +1,285 @@
+{
+	"backtrace" : 8,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target",
+			"_qt_internal_add_phony_target",
+			"_qt_internal_add_all_qmllint_target",
+			"_qt_internal_target_enable_qmllint",
+			"qt6_target_qml_sources",
+			"qt6_add_qml_module",
+			"include",
+			"add_dependencies",
+			"_qt_internal_add_phony_target_dependencies"
+		],
+		"files" : 
+		[
+			"/home/ont/Qt/6.9.1/gcc_64/lib/cmake/Qt6/QtPublicCMakeHelpers.cmake",
+			"/home/ont/Qt/6.9.1/gcc_64/lib/cmake/Qt6Qml/Qt6QmlMacros.cmake",
+			"qmlmodules.cmake",
+			"CMakeLists.txt",
+			"content/CMakeLists.txt",
+			"imports/CustomControls/CMakeLists.txt",
+			"imports/CustomStyle/CMakeLists.txt",
+			"imports/ToDoList/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 3
+			},
+			{
+				"command" : 6,
+				"file" : 3,
+				"line" : 24,
+				"parent" : 0
+			},
+			{
+				"file" : 2,
+				"parent" : 1
+			},
+			{
+				"command" : 5,
+				"file" : 2,
+				"line" : 4,
+				"parent" : 2
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 916,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 3228,
+				"parent" : 4
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 1577,
+				"parent" : 5
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 1593,
+				"parent" : 6
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 299,
+				"parent" : 7
+			},
+			{
+				"command" : 8,
+				"file" : 1,
+				"line" : 1597,
+				"parent" : 6
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 328,
+				"parent" : 9
+			},
+			{
+				"file" : 4
+			},
+			{
+				"command" : 5,
+				"file" : 4,
+				"line" : 5,
+				"parent" : 11
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 916,
+				"parent" : 12
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 3228,
+				"parent" : 13
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 1577,
+				"parent" : 14
+			},
+			{
+				"command" : 8,
+				"file" : 1,
+				"line" : 1597,
+				"parent" : 15
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 328,
+				"parent" : 16
+			},
+			{
+				"file" : 5
+			},
+			{
+				"command" : 5,
+				"file" : 5,
+				"line" : 5,
+				"parent" : 18
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 916,
+				"parent" : 19
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 3228,
+				"parent" : 20
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 1577,
+				"parent" : 21
+			},
+			{
+				"command" : 8,
+				"file" : 1,
+				"line" : 1597,
+				"parent" : 22
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 328,
+				"parent" : 23
+			},
+			{
+				"file" : 6
+			},
+			{
+				"command" : 5,
+				"file" : 6,
+				"line" : 5,
+				"parent" : 25
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 916,
+				"parent" : 26
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 3228,
+				"parent" : 27
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 1577,
+				"parent" : 28
+			},
+			{
+				"command" : 8,
+				"file" : 1,
+				"line" : 1597,
+				"parent" : 29
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 328,
+				"parent" : 30
+			},
+			{
+				"file" : 7
+			},
+			{
+				"command" : 5,
+				"file" : 7,
+				"line" : 20,
+				"parent" : 32
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 916,
+				"parent" : 33
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 3228,
+				"parent" : 34
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 1577,
+				"parent" : 35
+			},
+			{
+				"command" : 8,
+				"file" : 1,
+				"line" : 1597,
+				"parent" : 36
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 328,
+				"parent" : 37
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 10,
+			"id" : "ToDoListApp_qmllint::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 17,
+			"id" : "todolist_content_qmllint::@73a38b9e525c9c2ae262"
+		},
+		{
+			"backtrace" : 24,
+			"id" : "CustomControls_qmllint::@d33e5adc7e95dafa3d0f"
+		},
+		{
+			"backtrace" : 31,
+			"id" : "CustomStyle_qmllint::@101802947724fe7ee449"
+		},
+		{
+			"backtrace" : 38,
+			"id" : "ToDoList_qmllint::@e428b5e0f859b63a0006"
+		}
+	],
+	"folder" : 
+	{
+		"name" : "QtInternalTargets/QmlLinter"
+	},
+	"id" : "all_qmllint::@6890427a1f51a3e7e1df",
+	"name" : "all_qmllint",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

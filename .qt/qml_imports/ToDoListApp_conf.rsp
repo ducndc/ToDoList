@@ -1,0 +1,15 @@
+-rootPath
+/home/ont/Documents/ToDoList
+-cmake-output
+-output-file
+/home/ont/Documents/ToDoList/.qt/qml_imports/ToDoListApp_conf.cmake
+-importPath
+/home/ont/Documents/ToDoList/Main
+-importPath
+/home/ont/Documents/ToDoList
+-importPath
+/home/ont/Qt/6.9.1/gcc_64/qml
+-qrcFiles
+/home/ont/Documents/ToDoList/.qt/rcc/configuration.qrc
+/home/ont/Documents/ToDoList/.qt/rcc/qmake_Main.qrc
+/home/ont/Documents/ToDoList/.qt/rcc/ToDoListApp_raw_qml_0.qrc

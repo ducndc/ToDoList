@@ -1,0 +1,84 @@
+[
+    {
+        "moduleFiles": [
+            {
+                "entries": [
+                    {
+                        "codegenSuccessful": false,
+                        "column": 5,
+                        "durationMicroseconds": 270,
+                        "errorMessage": "function without return type annotation returns (component in /home/ont/Documents/ToDoList/imports/ToDoList/Database.qml)::_db with type QVariant. This may prevent proper compilation to Cpp.",
+                        "functionName": "_database",
+                        "line": 15
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 5,
+                        "durationMicroseconds": 0,
+                        "errorMessage": "Functions without type annotations won't be compiled",
+                        "functionName": "addTask",
+                        "line": 40
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 5,
+                        "durationMicroseconds": 0,
+                        "errorMessage": "Functions without type annotations won't be compiled",
+                        "functionName": "updateTask",
+                        "line": 51
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 5,
+                        "durationMicroseconds": 39,
+                        "errorMessage": "Instruction \"generate_StoreLocal\" not implemented",
+                        "functionName": "getTasks",
+                        "line": 59
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 5,
+                        "durationMicroseconds": 239,
+                        "errorMessage": "Cannot generate efficient code for LoadClosure",
+                        "functionName": "deleteTasks",
+                        "line": 79
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 5,
+                        "durationMicroseconds": 178,
+                        "errorMessage": "Cannot generate efficient code for LoadClosure",
+                        "functionName": "deleteDoneTasks",
+                        "line": 85
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 5,
+                        "durationMicroseconds": 0,
+                        "errorMessage": "Functions without type annotations won't be compiled",
+                        "functionName": "deleteTask",
+                        "line": 91
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 5,
+                        "durationMicroseconds": 0,
+                        "errorMessage": "Functions without type annotations won't be compiled",
+                        "functionName": "updateTaskState",
+                        "line": 97
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 5,
+                        "durationMicroseconds": 0,
+                        "errorMessage": "Functions without type annotations won't be compiled",
+                        "functionName": "updateTaskHighlight",
+                        "line": 103
+                    }
+                ],
+                "filePath": "/home/ont/Documents/ToDoList/imports/ToDoList/Database.qml"
+            }
+        ],
+        "moduleId": "ToDoList(ToDoList)"
+    }
+]

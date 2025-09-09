@@ -1,0 +1,52 @@
+[
+    {
+        "moduleFiles": [
+            {
+                "entries": [
+                    {
+                        "codegenSuccessful": true,
+                        "column": 37,
+                        "durationMicroseconds": 9383,
+                        "errorMessage": "",
+                        "functionName": "isDarkModeActive",
+                        "line": 14
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 40,
+                        "durationMicroseconds": 205,
+                        "errorMessage": "",
+                        "functionName": "mainColor",
+                        "line": 15
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 45,
+                        "durationMicroseconds": 164,
+                        "errorMessage": "",
+                        "functionName": "secondaryColor",
+                        "line": 16
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 47,
+                        "durationMicroseconds": 115,
+                        "errorMessage": "",
+                        "functionName": "clockIconSource",
+                        "line": 18
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 50,
+                        "durationMicroseconds": 110,
+                        "errorMessage": "",
+                        "functionName": "minClockIconSource",
+                        "line": 19
+                    }
+                ],
+                "filePath": "/home/ont/Documents/ToDoList/imports/ToDoList/Constants.qml"
+            }
+        ],
+        "moduleId": "ToDoList(ToDoList)"
+    }
+]

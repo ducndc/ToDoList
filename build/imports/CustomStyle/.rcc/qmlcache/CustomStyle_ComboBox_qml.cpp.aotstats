@@ -1,0 +1,164 @@
+[
+    {
+        "moduleFiles": [
+            {
+                "entries": [
+                    {
+                        "codegenSuccessful": true,
+                        "column": 20,
+                        "durationMicroseconds": 528,
+                        "errorMessage": "",
+                        "functionName": "implicitWidth",
+                        "line": 14
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 21,
+                        "durationMicroseconds": 543,
+                        "errorMessage": "",
+                        "functionName": "implicitHeight",
+                        "line": 17
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 28,
+                        "durationMicroseconds": 127,
+                        "errorMessage": "",
+                        "functionName": "onCurrentIndexChanged",
+                        "line": 22
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 16,
+                        "durationMicroseconds": 110,
+                        "errorMessage": "",
+                        "functionName": "width",
+                        "line": 27
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 20,
+                        "durationMicroseconds": 1911,
+                        "errorMessage": "",
+                        "functionName": "color",
+                        "line": 32
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 19,
+                        "durationMicroseconds": 101,
+                        "errorMessage": "",
+                        "functionName": "text",
+                        "line": 33
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 29,
+                        "durationMicroseconds": 3131,
+                        "errorMessage": "",
+                        "functionName": "pixelSize",
+                        "line": 34
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 31,
+                        "durationMicroseconds": 101,
+                        "errorMessage": "",
+                        "functionName": "alignment",
+                        "line": 35
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 15,
+                        "durationMicroseconds": 65,
+                        "errorMessage": "",
+                        "functionName": "text",
+                        "line": 47
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 16,
+                        "durationMicroseconds": 81,
+                        "errorMessage": "",
+                        "functionName": "elide",
+                        "line": 49
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 16,
+                        "durationMicroseconds": 87,
+                        "errorMessage": "",
+                        "functionName": "width",
+                        "line": 51
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 16,
+                        "durationMicroseconds": 392,
+                        "errorMessage": "",
+                        "functionName": "color",
+                        "line": 52
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 30,
+                        "durationMicroseconds": 94,
+                        "errorMessage": "",
+                        "functionName": "horizontalAlignment",
+                        "line": 53
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 25,
+                        "durationMicroseconds": 157,
+                        "errorMessage": "",
+                        "functionName": "pixelSize",
+                        "line": 48
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 23,
+                        "durationMicroseconds": 120,
+                        "errorMessage": "Cannot load property index from (component in /home/ont/Documents/ToDoList/imports/CustomStyle/ComboBox.qml)::parent with type QQuickItem.",
+                        "functionName": "onTapped",
+                        "line": 56
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 24,
+                        "durationMicroseconds": 101,
+                        "errorMessage": "",
+                        "functionName": "implicitWidth",
+                        "line": 63
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 25,
+                        "durationMicroseconds": 56,
+                        "errorMessage": "",
+                        "functionName": "implicitHeight",
+                        "line": 64
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 29,
+                        "durationMicroseconds": 63,
+                        "errorMessage": "",
+                        "functionName": "implicitHeight",
+                        "line": 68
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 20,
+                        "durationMicroseconds": 112,
+                        "errorMessage": "",
+                        "functionName": "model",
+                        "line": 69
+                    }
+                ],
+                "filePath": "/home/ont/Documents/ToDoList/imports/CustomStyle/ComboBox.qml"
+            }
+        ],
+        "moduleId": "CustomStyle(CustomStyle)"
+    }
+]

@@ -1,0 +1,68 @@
+[
+    {
+        "moduleFiles": [
+            {
+                "entries": [
+                    {
+                        "codegenSuccessful": false,
+                        "column": 22,
+                        "durationMicroseconds": 166,
+                        "errorMessage": "Cannot find name visible",
+                        "functionName": "onTapped",
+                        "line": 7
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 39,
+                        "durationMicroseconds": 0,
+                        "errorMessage": "Could not find signal \"pressed\".",
+                        "functionName": "onPressed",
+                        "line": 9
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 40,
+                        "durationMicroseconds": 0,
+                        "errorMessage": "Could not find signal \"accepted\".",
+                        "functionName": "onAccepted",
+                        "line": 18
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 40,
+                        "durationMicroseconds": 0,
+                        "errorMessage": "Could not find signal \"pressed\".",
+                        "functionName": "onPressed",
+                        "line": 10
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 41,
+                        "durationMicroseconds": 0,
+                        "errorMessage": "Could not find signal \"accepted\".",
+                        "functionName": "onAccepted",
+                        "line": 12
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 26,
+                        "durationMicroseconds": 122,
+                        "errorMessage": "Cannot find name hourText",
+                        "functionName": "onHourChanged",
+                        "line": 23
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 25,
+                        "durationMicroseconds": 64,
+                        "errorMessage": "Cannot find name minText",
+                        "functionName": "onMinChanged",
+                        "line": 24
+                    }
+                ],
+                "filePath": "/home/ont/Documents/ToDoList/content/ClockView.qml"
+            }
+        ],
+        "moduleId": "content(todolist_content)"
+    }
+]

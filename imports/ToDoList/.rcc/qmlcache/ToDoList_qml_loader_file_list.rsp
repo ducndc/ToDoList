@@ -1,0 +1,7 @@
+--resource
+/home/ont/Documents/ToDoList/imports/ToDoList/.qt/rcc/qmake_ToDoList.qrc
+--resource
+/home/ont/Documents/ToDoList/imports/ToDoList/.qt/rcc/ToDoList_raw_qml_0.qrc
+/qt/qml/ToDoList/AppSettings.qml
+/qt/qml/ToDoList/Constants.qml
+/qt/qml/ToDoList/Database.qml

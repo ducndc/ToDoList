@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/">
+    <file alias="/qt/qml/CustomStyle">/home/ont/Documents/ToDoList/imports/CustomStyle</file>
+
+  </qresource>
+</RCC>

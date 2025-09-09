@@ -1,0 +1,156 @@
+[
+    {
+        "moduleFiles": [
+            {
+                "entries": [
+                    {
+                        "codegenSuccessful": true,
+                        "column": 20,
+                        "durationMicroseconds": 477,
+                        "errorMessage": "",
+                        "functionName": "implicitWidth",
+                        "line": 14
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 21,
+                        "durationMicroseconds": 538,
+                        "errorMessage": "",
+                        "functionName": "implicitHeight",
+                        "line": 16
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 21,
+                        "durationMicroseconds": 3372,
+                        "errorMessage": "",
+                        "functionName": "pixelSize",
+                        "line": 23
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 16,
+                        "durationMicroseconds": 90,
+                        "errorMessage": "",
+                        "functionName": "bold",
+                        "line": 24
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 22,
+                        "durationMicroseconds": 85,
+                        "errorMessage": "",
+                        "functionName": "leftPadding",
+                        "line": 27
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 15,
+                        "durationMicroseconds": 80,
+                        "errorMessage": "",
+                        "functionName": "text",
+                        "line": 28
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 15,
+                        "durationMicroseconds": 137,
+                        "errorMessage": "",
+                        "functionName": "font",
+                        "line": 29
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 18,
+                        "durationMicroseconds": 144,
+                        "errorMessage": "",
+                        "functionName": "opacity",
+                        "line": 30
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 16,
+                        "durationMicroseconds": 1767,
+                        "errorMessage": "",
+                        "functionName": "color",
+                        "line": 31
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 16,
+                        "durationMicroseconds": 96,
+                        "errorMessage": "",
+                        "functionName": "elide",
+                        "line": 32
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 28,
+                        "durationMicroseconds": 77,
+                        "errorMessage": "",
+                        "functionName": "verticalAlignment",
+                        "line": 33
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 12,
+                        "durationMicroseconds": 231,
+                        "errorMessage": "",
+                        "functionName": "x",
+                        "line": 39
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 12,
+                        "durationMicroseconds": 238,
+                        "errorMessage": "",
+                        "functionName": "y",
+                        "line": 40
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 23,
+                        "durationMicroseconds": 318,
+                        "errorMessage": "",
+                        "functionName": "color",
+                        "line": 43
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 20,
+                        "durationMicroseconds": 297,
+                        "errorMessage": "",
+                        "functionName": "color",
+                        "line": 51
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 22,
+                        "durationMicroseconds": 90,
+                        "errorMessage": "",
+                        "functionName": "visible",
+                        "line": 52
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 18,
+                        "durationMicroseconds": 171,
+                        "errorMessage": "",
+                        "functionName": "visible",
+                        "line": 59
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 16,
+                        "durationMicroseconds": 296,
+                        "errorMessage": "",
+                        "functionName": "color",
+                        "line": 61
+                    }
+                ],
+                "filePath": "/home/ont/Documents/ToDoList/imports/CustomStyle/RadioDelegate.qml"
+            }
+        ],
+        "moduleId": "CustomStyle(CustomStyle)"
+    }
+]

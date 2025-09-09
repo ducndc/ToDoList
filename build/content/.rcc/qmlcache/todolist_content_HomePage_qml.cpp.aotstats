@@ -1,0 +1,156 @@
+[
+    {
+        "moduleFiles": [
+            {
+                "entries": [
+                    {
+                        "codegenSuccessful": false,
+                        "column": 5,
+                        "durationMicroseconds": 458,
+                        "errorMessage": "Cannot use shadowable base type for further lookups: call to method get, returning QJSValue",
+                        "functionName": "cleanDoneTasks",
+                        "line": 10
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 5,
+                        "durationMicroseconds": 815,
+                        "errorMessage": "Cannot generate efficient code for call to untyped JavaScript function",
+                        "functionName": "getTargetList",
+                        "line": 19
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 5,
+                        "durationMicroseconds": 300,
+                        "errorMessage": "Cannot access value for name AppSettings",
+                        "functionName": "addTask",
+                        "line": 36
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 5,
+                        "durationMicroseconds": 181,
+                        "errorMessage": "Cannot access value for name Database",
+                        "functionName": "updateTask",
+                        "line": 52
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 5,
+                        "durationMicroseconds": 138,
+                        "errorMessage": "Cannot access value for name XMLHttpRequest",
+                        "functionName": "sendHttpRequest",
+                        "line": 68
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 25,
+                        "durationMicroseconds": 0,
+                        "errorMessage": "Could not find signal \"tapped\".",
+                        "functionName": "onTapped",
+                        "line": 92
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 31,
+                        "durationMicroseconds": 0,
+                        "errorMessage": "Could not find signal \"clicked\".",
+                        "functionName": "onClicked",
+                        "line": 97
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 30,
+                        "durationMicroseconds": 0,
+                        "errorMessage": "Could not find signal \"tapped\".",
+                        "functionName": "onTapped",
+                        "line": 101
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 36,
+                        "durationMicroseconds": 0,
+                        "errorMessage": "Could not find signal \"tapped\".",
+                        "functionName": "onTapped",
+                        "line": 107
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 26,
+                        "durationMicroseconds": 207,
+                        "errorMessage": "Cannot find name titleText",
+                        "functionName": "onEditTask",
+                        "line": 109
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 26,
+                        "durationMicroseconds": 78,
+                        "errorMessage": "",
+                        "functionName": "onEditTask",
+                        "line": 109
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 34,
+                        "durationMicroseconds": 158,
+                        "errorMessage": "",
+                        "functionName": "onAddNewQuickTask",
+                        "line": 124
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 34,
+                        "durationMicroseconds": 60,
+                        "errorMessage": "",
+                        "functionName": "onAddNewQuickTask",
+                        "line": 124
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 31,
+                        "durationMicroseconds": 154,
+                        "errorMessage": "",
+                        "functionName": "onNewTaskCreated",
+                        "line": 128
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 31,
+                        "durationMicroseconds": 62,
+                        "errorMessage": "",
+                        "functionName": "onNewTaskCreated",
+                        "line": 128
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 28,
+                        "durationMicroseconds": 215,
+                        "errorMessage": "",
+                        "functionName": "onTaskUpdated",
+                        "line": 133
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 28,
+                        "durationMicroseconds": 68,
+                        "errorMessage": "",
+                        "functionName": "onTaskUpdated",
+                        "line": 133
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 26,
+                        "durationMicroseconds": 0,
+                        "errorMessage": "Could not find signal \"tapped\".",
+                        "functionName": "onTapped",
+                        "line": 138
+                    }
+                ],
+                "filePath": "/home/ont/Documents/ToDoList/content/HomePage.qml"
+            }
+        ],
+        "moduleId": "content(todolist_content)"
+    }
+]

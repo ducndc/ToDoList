@@ -1,0 +1,14 @@
+--bare
+-I
+/home/ont/Documents/ToDoList/build
+-I
+/home/ont/Qt/6.9.1/gcc_64/qml
+--resource
+/home/ont/Documents/ToDoList/build/.qt/rcc/configuration.qrc
+--resource
+/home/ont/Documents/ToDoList/build/.qt/rcc/qmake_Main.qrc
+--resource
+/home/ont/Documents/ToDoList/build/.qt/rcc/ToDoListApp_raw_qml_0.qrc
+/home/ont/Documents/ToDoList/Main.qml
+--json
+/home/ont/Documents/ToDoList/build/ToDoListApp_qmllint.json

@@ -1,0 +1,8 @@
+<RCC>
+  <qresource prefix="/qt/qml/ToDoList/">
+    <file alias="AppSettings.qml">/home/ont/Documents/ToDoList/imports/ToDoList/AppSettings.qml</file>
+    <file alias="Constants.qml">/home/ont/Documents/ToDoList/imports/ToDoList/Constants.qml</file>
+    <file alias="Database.qml">/home/ont/Documents/ToDoList/imports/ToDoList/Database.qml</file>
+  </qresource>
+</RCC>
+

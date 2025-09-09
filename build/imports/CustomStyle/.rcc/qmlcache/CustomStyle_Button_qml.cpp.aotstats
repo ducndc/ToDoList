@@ -1,0 +1,60 @@
+[
+    {
+        "moduleFiles": [
+            {
+                "entries": [
+                    {
+                        "codegenSuccessful": true,
+                        "column": 14,
+                        "durationMicroseconds": 393,
+                        "errorMessage": "",
+                        "functionName": "opacity",
+                        "line": 11
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 15,
+                        "durationMicroseconds": 100,
+                        "errorMessage": "",
+                        "functionName": "text",
+                        "line": 14
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 16,
+                        "durationMicroseconds": 1956,
+                        "errorMessage": "",
+                        "functionName": "color",
+                        "line": 16
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 30,
+                        "durationMicroseconds": 84,
+                        "errorMessage": "",
+                        "functionName": "horizontalAlignment",
+                        "line": 17
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 28,
+                        "durationMicroseconds": 69,
+                        "errorMessage": "",
+                        "functionName": "verticalAlignment",
+                        "line": 18
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 16,
+                        "durationMicroseconds": 73,
+                        "errorMessage": "",
+                        "functionName": "elide",
+                        "line": 19
+                    }
+                ],
+                "filePath": "/home/ont/Documents/ToDoList/imports/CustomStyle/Button.qml"
+            }
+        ],
+        "moduleId": "CustomStyle(CustomStyle)"
+    }
+]

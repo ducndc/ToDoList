@@ -1,0 +1,36 @@
+[
+    {
+        "moduleFiles": [
+            {
+                "entries": [
+                    {
+                        "codegenSuccessful": false,
+                        "column": 24,
+                        "durationMicroseconds": 58,
+                        "errorMessage": "Type (component in /home/ont/Documents/ToDoList/content/TasksList.qml)::dialogPopup with type  does not have a property open for calling",
+                        "functionName": "onTaskDataChanged",
+                        "line": 17
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 25,
+                        "durationMicroseconds": 433,
+                        "errorMessage": "",
+                        "functionName": "onTapped",
+                        "line": 9
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 29,
+                        "durationMicroseconds": 0,
+                        "errorMessage": "Could not find signal \"accepted\".",
+                        "functionName": "onAccepted",
+                        "line": 19
+                    }
+                ],
+                "filePath": "/home/ont/Documents/ToDoList/content/TasksList.qml"
+            }
+        ],
+        "moduleId": "content(todolist_content)"
+    }
+]

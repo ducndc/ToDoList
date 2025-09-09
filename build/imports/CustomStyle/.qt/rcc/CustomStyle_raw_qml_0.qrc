@@ -1,0 +1,20 @@
+<RCC>
+  <qresource prefix="/qt/qml/CustomStyle/">
+    <file alias="Button.qml">/home/ont/Documents/ToDoList/imports/CustomStyle/Button.qml</file>
+    <file alias="CheckBox.qml">/home/ont/Documents/ToDoList/imports/CustomStyle/CheckBox.qml</file>
+    <file alias="ComboBox.qml">/home/ont/Documents/ToDoList/imports/CustomStyle/ComboBox.qml</file>
+    <file alias="Dialog.qml">/home/ont/Documents/ToDoList/imports/CustomStyle/Dialog.qml</file>
+    <file alias="Page.qml">/home/ont/Documents/ToDoList/imports/CustomStyle/Page.qml</file>
+    <file alias="Pane.qml">/home/ont/Documents/ToDoList/imports/CustomStyle/Pane.qml</file>
+    <file alias="ItemDelegate.qml">/home/ont/Documents/ToDoList/imports/CustomStyle/ItemDelegate.qml</file>
+    <file alias="RadioDelegate.qml">/home/ont/Documents/ToDoList/imports/CustomStyle/RadioDelegate.qml</file>
+    <file alias="SwitchDelegate.qml">/home/ont/Documents/ToDoList/imports/CustomStyle/SwitchDelegate.qml</file>
+    <file alias="TextArea.qml">/home/ont/Documents/ToDoList/imports/CustomStyle/TextArea.qml</file>
+    <file alias="TextField.qml">/home/ont/Documents/ToDoList/imports/CustomStyle/TextField.qml</file>
+    <file alias="ToolBar.qml">/home/ont/Documents/ToDoList/imports/CustomStyle/ToolBar.qml</file>
+    <file alias="ToolButton.qml">/home/ont/Documents/ToDoList/imports/CustomStyle/ToolButton.qml</file>
+    <file alias="ToolTip.qml">/home/ont/Documents/ToDoList/imports/CustomStyle/ToolTip.qml</file>
+    <file alias="images/Expand_Icon.svg">/home/ont/Documents/ToDoList/imports/CustomStyle/images/Expand_Icon.svg</file>
+  </qresource>
+</RCC>
+

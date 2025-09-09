@@ -1,0 +1,44 @@
+[
+    {
+        "moduleFiles": [
+            {
+                "entries": [
+                    {
+                        "codegenSuccessful": false,
+                        "column": 22,
+                        "durationMicroseconds": 568,
+                        "errorMessage": "Cannot access value for name Constants",
+                        "functionName": "theme",
+                        "line": 19
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 21,
+                        "durationMicroseconds": 440,
+                        "errorMessage": "Cannot access value for name Constants",
+                        "functionName": "theme",
+                        "line": 20
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 23,
+                        "durationMicroseconds": 144,
+                        "errorMessage": "",
+                        "functionName": "fill",
+                        "line": 27
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 28,
+                        "durationMicroseconds": 138,
+                        "errorMessage": "",
+                        "functionName": "builtInStyles",
+                        "line": 29
+                    }
+                ],
+                "filePath": "/home/ont/Documents/ToDoList/content/App.qml"
+            }
+        ],
+        "moduleId": "content(todolist_content)"
+    }
+]

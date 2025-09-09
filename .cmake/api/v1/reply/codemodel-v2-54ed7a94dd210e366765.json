@@ -1,0 +1,927 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-e2da7bfb40b2c703fa98.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						35,
+						36,
+						37,
+						38,
+						39,
+						40,
+						41,
+						42,
+						43,
+						44,
+						61,
+						62,
+						63,
+						64,
+						65,
+						66,
+						67,
+						68,
+						69,
+						70
+					]
+				},
+				{
+					"build" : "content",
+					"jsonFile" : "directory-content-Debug-61a361743d88a3b42c45.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "content",
+					"targetIndexes" : 
+					[
+						71,
+						72,
+						73,
+						74,
+						75,
+						76,
+						77,
+						78,
+						79,
+						80,
+						81,
+						82,
+						83,
+						84,
+						85,
+						86,
+						87
+					]
+				},
+				{
+					"build" : "imports",
+					"childIndexes" : 
+					[
+						3,
+						4,
+						5
+					],
+					"jsonFile" : "directory-imports-Debug-615074570c3908afab44.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "imports"
+				},
+				{
+					"build" : "imports/CustomControls",
+					"jsonFile" : "directory-imports.CustomControls-Debug-9e0fe70fbd5d1ceaf153.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 0,
+					"source" : "imports/CustomControls",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16
+					]
+				},
+				{
+					"build" : "imports/CustomStyle",
+					"jsonFile" : "directory-imports.CustomStyle-Debug-1ad5fdcaf9da8e39b9c0.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 0,
+					"source" : "imports/CustomStyle",
+					"targetIndexes" : 
+					[
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						23,
+						24,
+						25,
+						26,
+						27,
+						28,
+						29,
+						30,
+						31,
+						32,
+						33
+					]
+				},
+				{
+					"build" : "imports/ToDoList",
+					"jsonFile" : "directory-imports.ToDoList-Debug-3d96e8fa360dd79a24d2.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 0,
+					"source" : "imports/ToDoList",
+					"targetIndexes" : 
+					[
+						34,
+						45,
+						46,
+						47,
+						48,
+						49,
+						50,
+						51,
+						52,
+						53,
+						54,
+						55,
+						56,
+						57,
+						58,
+						59,
+						60
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					],
+					"name" : "ToDoListApp",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						23,
+						24,
+						25,
+						26,
+						27,
+						28,
+						29,
+						30,
+						31,
+						32,
+						33,
+						34,
+						35,
+						36,
+						37,
+						38,
+						39,
+						40,
+						41,
+						42,
+						43,
+						44,
+						45,
+						46,
+						47,
+						48,
+						49,
+						50,
+						51,
+						52,
+						53,
+						54,
+						55,
+						56,
+						57,
+						58,
+						59,
+						60,
+						61,
+						62,
+						63,
+						64,
+						65,
+						66,
+						67,
+						68,
+						69,
+						70,
+						71,
+						72,
+						73,
+						74,
+						75,
+						76,
+						77,
+						78,
+						79,
+						80,
+						81,
+						82,
+						83,
+						84,
+						85,
+						86,
+						87
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 3,
+					"id" : "CustomControls::@d33e5adc7e95dafa3d0f",
+					"jsonFile" : "target-CustomControls-Debug-e6c1280503ef0031f5cf.json",
+					"name" : "CustomControls",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "CustomControls_autogen::@d33e5adc7e95dafa3d0f",
+					"jsonFile" : "target-CustomControls_autogen-Debug-7a2d1c92b921be4406fd.json",
+					"name" : "CustomControls_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "CustomControls_autogen_timestamp_deps::@d33e5adc7e95dafa3d0f",
+					"jsonFile" : "target-CustomControls_autogen_timestamp_deps-Debug-5387a7a1d6b6ad19b63b.json",
+					"name" : "CustomControls_autogen_timestamp_deps",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "CustomControls_copy_qml::@d33e5adc7e95dafa3d0f",
+					"jsonFile" : "target-CustomControls_copy_qml-Debug-0b215f32ce32f51fb66e.json",
+					"name" : "CustomControls_copy_qml",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "CustomControls_copy_res::@d33e5adc7e95dafa3d0f",
+					"jsonFile" : "target-CustomControls_copy_res-Debug-7a574f68e43576eefeec.json",
+					"name" : "CustomControls_copy_res",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "CustomControls_qmllint::@d33e5adc7e95dafa3d0f",
+					"jsonFile" : "target-CustomControls_qmllint-Debug-47624fd0610ae118f656.json",
+					"name" : "CustomControls_qmllint",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "CustomControls_qmllint_json::@d33e5adc7e95dafa3d0f",
+					"jsonFile" : "target-CustomControls_qmllint_json-Debug-4a7a630e53039d67f77b.json",
+					"name" : "CustomControls_qmllint_json",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "CustomControls_qmllint_module::@d33e5adc7e95dafa3d0f",
+					"jsonFile" : "target-CustomControls_qmllint_module-Debug-b601dfec8b9bbd1c86f8.json",
+					"name" : "CustomControls_qmllint_module",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "CustomControls_qmltyperegistration::@d33e5adc7e95dafa3d0f",
+					"jsonFile" : "target-CustomControls_qmltyperegistration-Debug-247aaead5d655a221e02.json",
+					"name" : "CustomControls_qmltyperegistration",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "CustomControls_resources_1::@d33e5adc7e95dafa3d0f",
+					"jsonFile" : "target-CustomControls_resources_1-Debug-dfc1268f9f6d5a450cf3.json",
+					"name" : "CustomControls_resources_1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "CustomControls_resources_2::@d33e5adc7e95dafa3d0f",
+					"jsonFile" : "target-CustomControls_resources_2-Debug-6d52a2b57055f3c6148f.json",
+					"name" : "CustomControls_resources_2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "CustomControlsplugin::@d33e5adc7e95dafa3d0f",
+					"jsonFile" : "target-CustomControlsplugin-Debug-ae455d13a2d50a99b360.json",
+					"name" : "CustomControlsplugin",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "CustomControlsplugin_autogen::@d33e5adc7e95dafa3d0f",
+					"jsonFile" : "target-CustomControlsplugin_autogen-Debug-fcb905506dc951f59729.json",
+					"name" : "CustomControlsplugin_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "CustomControlsplugin_autogen_timestamp_deps::@d33e5adc7e95dafa3d0f",
+					"jsonFile" : "target-CustomControlsplugin_autogen_timestamp_deps-Debug-1ea973645e583fb1bec7.json",
+					"name" : "CustomControlsplugin_autogen_timestamp_deps",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "CustomControlsplugin_init::@d33e5adc7e95dafa3d0f",
+					"jsonFile" : "target-CustomControlsplugin_init-Debug-a9e2abb088264462fc83.json",
+					"name" : "CustomControlsplugin_init",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "CustomControlsplugin_init_autogen::@d33e5adc7e95dafa3d0f",
+					"jsonFile" : "target-CustomControlsplugin_init_autogen-Debug-45f12ed7314c52c3cc5a.json",
+					"name" : "CustomControlsplugin_init_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "CustomControlsplugin_init_autogen_timestamp_deps::@d33e5adc7e95dafa3d0f",
+					"jsonFile" : "target-CustomControlsplugin_init_autogen_timestamp_deps-Debug-68e280dbdaaaad4c1791.json",
+					"name" : "CustomControlsplugin_init_autogen_timestamp_deps",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "CustomStyle::@101802947724fe7ee449",
+					"jsonFile" : "target-CustomStyle-Debug-82c43c0085293eaa71f9.json",
+					"name" : "CustomStyle",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "CustomStyle_autogen::@101802947724fe7ee449",
+					"jsonFile" : "target-CustomStyle_autogen-Debug-108c91f0d1db11ccae07.json",
+					"name" : "CustomStyle_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "CustomStyle_autogen_timestamp_deps::@101802947724fe7ee449",
+					"jsonFile" : "target-CustomStyle_autogen_timestamp_deps-Debug-29b6d88d75d6eeac8815.json",
+					"name" : "CustomStyle_autogen_timestamp_deps",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "CustomStyle_copy_qml::@101802947724fe7ee449",
+					"jsonFile" : "target-CustomStyle_copy_qml-Debug-a562c85aadf76987da97.json",
+					"name" : "CustomStyle_copy_qml",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "CustomStyle_copy_res::@101802947724fe7ee449",
+					"jsonFile" : "target-CustomStyle_copy_res-Debug-160a3d8df50d13851440.json",
+					"name" : "CustomStyle_copy_res",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "CustomStyle_qmllint::@101802947724fe7ee449",
+					"jsonFile" : "target-CustomStyle_qmllint-Debug-4d0c5677fabeab9aae96.json",
+					"name" : "CustomStyle_qmllint",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "CustomStyle_qmllint_json::@101802947724fe7ee449",
+					"jsonFile" : "target-CustomStyle_qmllint_json-Debug-5d00148d90c237db4bda.json",
+					"name" : "CustomStyle_qmllint_json",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "CustomStyle_qmllint_module::@101802947724fe7ee449",
+					"jsonFile" : "target-CustomStyle_qmllint_module-Debug-6970373b95feb4885b84.json",
+					"name" : "CustomStyle_qmllint_module",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "CustomStyle_qmltyperegistration::@101802947724fe7ee449",
+					"jsonFile" : "target-CustomStyle_qmltyperegistration-Debug-d898e4d6673a07d06095.json",
+					"name" : "CustomStyle_qmltyperegistration",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "CustomStyle_resources_1::@101802947724fe7ee449",
+					"jsonFile" : "target-CustomStyle_resources_1-Debug-dbb6a1bb2950e57ed028.json",
+					"name" : "CustomStyle_resources_1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "CustomStyle_resources_2::@101802947724fe7ee449",
+					"jsonFile" : "target-CustomStyle_resources_2-Debug-1295fe4fd30261259fc1.json",
+					"name" : "CustomStyle_resources_2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "CustomStyleplugin::@101802947724fe7ee449",
+					"jsonFile" : "target-CustomStyleplugin-Debug-64392eecd18f64b676b4.json",
+					"name" : "CustomStyleplugin",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "CustomStyleplugin_autogen::@101802947724fe7ee449",
+					"jsonFile" : "target-CustomStyleplugin_autogen-Debug-b9a3a46835f26b3b5977.json",
+					"name" : "CustomStyleplugin_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "CustomStyleplugin_autogen_timestamp_deps::@101802947724fe7ee449",
+					"jsonFile" : "target-CustomStyleplugin_autogen_timestamp_deps-Debug-bc50a9d6e7ce12fd5f0d.json",
+					"name" : "CustomStyleplugin_autogen_timestamp_deps",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "CustomStyleplugin_init::@101802947724fe7ee449",
+					"jsonFile" : "target-CustomStyleplugin_init-Debug-731ea322bfa36cf9aedb.json",
+					"name" : "CustomStyleplugin_init",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "CustomStyleplugin_init_autogen::@101802947724fe7ee449",
+					"jsonFile" : "target-CustomStyleplugin_init_autogen-Debug-8340ccb4fa9f9416b025.json",
+					"name" : "CustomStyleplugin_init_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "CustomStyleplugin_init_autogen_timestamp_deps::@101802947724fe7ee449",
+					"jsonFile" : "target-CustomStyleplugin_init_autogen_timestamp_deps-Debug-a7242ac7fd1fb28de118.json",
+					"name" : "CustomStyleplugin_init_autogen_timestamp_deps",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "ToDoList::@e428b5e0f859b63a0006",
+					"jsonFile" : "target-ToDoList-Debug-3a4de6dc2fd0a308b3cf.json",
+					"name" : "ToDoList",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ToDoListApp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ToDoListApp-Debug-157026705ed2a24700e6.json",
+					"name" : "ToDoListApp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ToDoListApp_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ToDoListApp_autogen-Debug-2e2a92d51e93fdd1ae2d.json",
+					"name" : "ToDoListApp_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ToDoListApp_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ToDoListApp_autogen_timestamp_deps-Debug-1a719b882382db50dbb2.json",
+					"name" : "ToDoListApp_autogen_timestamp_deps",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ToDoListApp_copy_qml::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ToDoListApp_copy_qml-Debug-05a984435c3d4796d7a9.json",
+					"name" : "ToDoListApp_copy_qml",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ToDoListApp_copy_res::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ToDoListApp_copy_res-Debug-c250c76106bcd6159b0b.json",
+					"name" : "ToDoListApp_copy_res",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ToDoListApp_qmlimportscan::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ToDoListApp_qmlimportscan-Debug-70377d5b7a9063fc395f.json",
+					"name" : "ToDoListApp_qmlimportscan",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ToDoListApp_qmllint::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ToDoListApp_qmllint-Debug-cf09222693033dc16344.json",
+					"name" : "ToDoListApp_qmllint",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ToDoListApp_qmllint_json::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ToDoListApp_qmllint_json-Debug-cd7fec2ddfcf051e34e0.json",
+					"name" : "ToDoListApp_qmllint_json",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ToDoListApp_qmllint_module::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ToDoListApp_qmllint_module-Debug-b3c0068ccf33cfa8b6a6.json",
+					"name" : "ToDoListApp_qmllint_module",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ToDoListApp_qmltyperegistration::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ToDoListApp_qmltyperegistration-Debug-2cc2a73f1c1ae4456d49.json",
+					"name" : "ToDoListApp_qmltyperegistration",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "ToDoList_autogen::@e428b5e0f859b63a0006",
+					"jsonFile" : "target-ToDoList_autogen-Debug-43fe75823e1441a6f1f1.json",
+					"name" : "ToDoList_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "ToDoList_autogen_timestamp_deps::@e428b5e0f859b63a0006",
+					"jsonFile" : "target-ToDoList_autogen_timestamp_deps-Debug-4d8155748f4dc621fe79.json",
+					"name" : "ToDoList_autogen_timestamp_deps",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "ToDoList_copy_qml::@e428b5e0f859b63a0006",
+					"jsonFile" : "target-ToDoList_copy_qml-Debug-560ffdb0a63c45eac296.json",
+					"name" : "ToDoList_copy_qml",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "ToDoList_copy_res::@e428b5e0f859b63a0006",
+					"jsonFile" : "target-ToDoList_copy_res-Debug-d680181fe6c98053de0d.json",
+					"name" : "ToDoList_copy_res",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "ToDoList_qmllint::@e428b5e0f859b63a0006",
+					"jsonFile" : "target-ToDoList_qmllint-Debug-aec5d92640872bc8dd84.json",
+					"name" : "ToDoList_qmllint",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "ToDoList_qmllint_json::@e428b5e0f859b63a0006",
+					"jsonFile" : "target-ToDoList_qmllint_json-Debug-ea8f69dcce34202e4ff0.json",
+					"name" : "ToDoList_qmllint_json",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "ToDoList_qmllint_module::@e428b5e0f859b63a0006",
+					"jsonFile" : "target-ToDoList_qmllint_module-Debug-5759ad46096ccfbee560.json",
+					"name" : "ToDoList_qmllint_module",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "ToDoList_qmltyperegistration::@e428b5e0f859b63a0006",
+					"jsonFile" : "target-ToDoList_qmltyperegistration-Debug-8dbe911e1db785b3893b.json",
+					"name" : "ToDoList_qmltyperegistration",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "ToDoList_resources_1::@e428b5e0f859b63a0006",
+					"jsonFile" : "target-ToDoList_resources_1-Debug-bf2e124b39a2e89a52f7.json",
+					"name" : "ToDoList_resources_1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "ToDoList_resources_2::@e428b5e0f859b63a0006",
+					"jsonFile" : "target-ToDoList_resources_2-Debug-93e0a6191009e176ccbe.json",
+					"name" : "ToDoList_resources_2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "ToDoListplugin::@e428b5e0f859b63a0006",
+					"jsonFile" : "target-ToDoListplugin-Debug-9604a0b1ccd75f675791.json",
+					"name" : "ToDoListplugin",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "ToDoListplugin_autogen::@e428b5e0f859b63a0006",
+					"jsonFile" : "target-ToDoListplugin_autogen-Debug-e22813451d05c7350bd9.json",
+					"name" : "ToDoListplugin_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "ToDoListplugin_autogen_timestamp_deps::@e428b5e0f859b63a0006",
+					"jsonFile" : "target-ToDoListplugin_autogen_timestamp_deps-Debug-2f3e3089ba6ef8f075e5.json",
+					"name" : "ToDoListplugin_autogen_timestamp_deps",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "ToDoListplugin_init::@e428b5e0f859b63a0006",
+					"jsonFile" : "target-ToDoListplugin_init-Debug-a1dae81c69c36e372465.json",
+					"name" : "ToDoListplugin_init",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "ToDoListplugin_init_autogen::@e428b5e0f859b63a0006",
+					"jsonFile" : "target-ToDoListplugin_init_autogen-Debug-0f267c46a15dbb03d8f6.json",
+					"name" : "ToDoListplugin_init_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "ToDoListplugin_init_autogen_timestamp_deps::@e428b5e0f859b63a0006",
+					"jsonFile" : "target-ToDoListplugin_init_autogen_timestamp_deps-Debug-2f3d6b6d624f10a7e15c.json",
+					"name" : "ToDoListplugin_init_autogen_timestamp_deps",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_aotstats::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_aotstats-Debug-5bcef60d686c8180690b.json",
+					"name" : "all_aotstats",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint-Debug-5b2b219cc08b30719928.json",
+					"name" : "all_qmllint",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint_json::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint_json-Debug-08e03677065874d67b3d.json",
+					"name" : "all_qmllint_json",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint_module::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint_module-Debug-e10bfd5f2e5f527346d0.json",
+					"name" : "all_qmllint_module",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmltyperegistrations::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmltyperegistrations-Debug-cf1b395ac2853f2c81f0.json",
+					"name" : "all_qmltyperegistrations",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "module_CustomControls_aotstats_target::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-module_CustomControls_aotstats_target-Debug-eab309c37b060f488157.json",
+					"name" : "module_CustomControls_aotstats_target",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "module_CustomStyle_aotstats_target::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-module_CustomStyle_aotstats_target-Debug-1803b4522288284ef0e7.json",
+					"name" : "module_CustomStyle_aotstats_target",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "module_ToDoListApp_aotstats_target::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-module_ToDoListApp_aotstats_target-Debug-8be72fde9c68eed40028.json",
+					"name" : "module_ToDoListApp_aotstats_target",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "module_ToDoList_aotstats_target::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-module_ToDoList_aotstats_target-Debug-4b0908297d44f2d28020.json",
+					"name" : "module_ToDoList_aotstats_target",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "module_todolist_content_aotstats_target::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-module_todolist_content_aotstats_target-Debug-2217781d33e8c75adf63.json",
+					"name" : "module_todolist_content_aotstats_target",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "todolist_content::@73a38b9e525c9c2ae262",
+					"jsonFile" : "target-todolist_content-Debug-c4ecd5d15eef1cdcff02.json",
+					"name" : "todolist_content",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "todolist_content_autogen::@73a38b9e525c9c2ae262",
+					"jsonFile" : "target-todolist_content_autogen-Debug-e1b4af5e6d2f4951861e.json",
+					"name" : "todolist_content_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "todolist_content_autogen_timestamp_deps::@73a38b9e525c9c2ae262",
+					"jsonFile" : "target-todolist_content_autogen_timestamp_deps-Debug-ff687bc8c986c4369a7c.json",
+					"name" : "todolist_content_autogen_timestamp_deps",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "todolist_content_copy_qml::@73a38b9e525c9c2ae262",
+					"jsonFile" : "target-todolist_content_copy_qml-Debug-1d05ea31b9fe38b47ee9.json",
+					"name" : "todolist_content_copy_qml",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "todolist_content_copy_res::@73a38b9e525c9c2ae262",
+					"jsonFile" : "target-todolist_content_copy_res-Debug-0f7984f57b1ad82632b2.json",
+					"name" : "todolist_content_copy_res",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "todolist_content_qmllint::@73a38b9e525c9c2ae262",
+					"jsonFile" : "target-todolist_content_qmllint-Debug-1fc5a34130ddc2d0fd51.json",
+					"name" : "todolist_content_qmllint",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "todolist_content_qmllint_json::@73a38b9e525c9c2ae262",
+					"jsonFile" : "target-todolist_content_qmllint_json-Debug-81e87db79a18b88f5f35.json",
+					"name" : "todolist_content_qmllint_json",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "todolist_content_qmllint_module::@73a38b9e525c9c2ae262",
+					"jsonFile" : "target-todolist_content_qmllint_module-Debug-85ddbc480ca5731d4550.json",
+					"name" : "todolist_content_qmllint_module",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "todolist_content_qmltyperegistration::@73a38b9e525c9c2ae262",
+					"jsonFile" : "target-todolist_content_qmltyperegistration-Debug-ea1eb6535d4f3d3a5068.json",
+					"name" : "todolist_content_qmltyperegistration",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "todolist_content_resources_1::@73a38b9e525c9c2ae262",
+					"jsonFile" : "target-todolist_content_resources_1-Debug-98867ccd619946937825.json",
+					"name" : "todolist_content_resources_1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "todolist_content_resources_2::@73a38b9e525c9c2ae262",
+					"jsonFile" : "target-todolist_content_resources_2-Debug-176b9bd5c46e3fe3fa7a.json",
+					"name" : "todolist_content_resources_2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "todolist_contentplugin::@73a38b9e525c9c2ae262",
+					"jsonFile" : "target-todolist_contentplugin-Debug-06bed0bd372cead7494f.json",
+					"name" : "todolist_contentplugin",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "todolist_contentplugin_autogen::@73a38b9e525c9c2ae262",
+					"jsonFile" : "target-todolist_contentplugin_autogen-Debug-e48d03e5ce976bcbd583.json",
+					"name" : "todolist_contentplugin_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "todolist_contentplugin_autogen_timestamp_deps::@73a38b9e525c9c2ae262",
+					"jsonFile" : "target-todolist_contentplugin_autogen_timestamp_deps-Debug-fa2b7cecfb5bb78daee3.json",
+					"name" : "todolist_contentplugin_autogen_timestamp_deps",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "todolist_contentplugin_init::@73a38b9e525c9c2ae262",
+					"jsonFile" : "target-todolist_contentplugin_init-Debug-948c0438d78a12b5be51.json",
+					"name" : "todolist_contentplugin_init",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "todolist_contentplugin_init_autogen::@73a38b9e525c9c2ae262",
+					"jsonFile" : "target-todolist_contentplugin_init_autogen-Debug-6d1bd72e3c8e8d5739f6.json",
+					"name" : "todolist_contentplugin_init_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "todolist_contentplugin_init_autogen_timestamp_deps::@73a38b9e525c9c2ae262",
+					"jsonFile" : "target-todolist_contentplugin_init_autogen_timestamp_deps-Debug-e0e371a5c54745b5634e.json",
+					"name" : "todolist_contentplugin_init_autogen_timestamp_deps",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/ont/Documents/ToDoList",
+		"source" : "/home/ont/Documents/ToDoList"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}

@@ -1,0 +1,10 @@
+-I
+/home/ont/Documents/ToDoList/build
+-I
+/home/ont/Qt/6.9.1/gcc_64/qml
+--resource
+/home/ont/Documents/ToDoList/build/content/.qt/rcc/qmake_content.qrc
+--resource
+/home/ont/Documents/ToDoList/build/content/.qt/rcc/todolist_content_raw_qml_0.qrc
+--module
+content

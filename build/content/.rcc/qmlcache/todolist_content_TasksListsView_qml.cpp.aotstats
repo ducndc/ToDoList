@@ -1,0 +1,92 @@
+[
+    {
+        "moduleFiles": [
+            {
+                "entries": [
+                    {
+                        "codegenSuccessful": true,
+                        "column": 21,
+                        "durationMicroseconds": 161,
+                        "errorMessage": "",
+                        "functionName": "doneTasksCount",
+                        "line": 11
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 5,
+                        "durationMicroseconds": 327,
+                        "errorMessage": "",
+                        "functionName": "getTasksCount",
+                        "line": 13
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 5,
+                        "durationMicroseconds": 373,
+                        "errorMessage": "Cannot generate efficient code for call to untyped JavaScript function",
+                        "functionName": "getAllDoneTasksCount",
+                        "line": 19
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 5,
+                        "durationMicroseconds": 0,
+                        "errorMessage": "Functions without type annotations won't be compiled",
+                        "functionName": "getDoneTasksCount",
+                        "line": 26
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 5,
+                        "durationMicroseconds": 2067,
+                        "errorMessage": "Cannot generate efficient code for call to untyped JavaScript function",
+                        "functionName": "checkThisWeekDate",
+                        "line": 36
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 5,
+                        "durationMicroseconds": 257,
+                        "errorMessage": "Cannot access value for name Database",
+                        "functionName": "createTasksLists",
+                        "line": 49
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 47,
+                        "durationMicroseconds": 362,
+                        "errorMessage": "",
+                        "functionName": "onEditedTaskIndexChanged",
+                        "line": 65
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 46,
+                        "durationMicroseconds": 321,
+                        "errorMessage": "",
+                        "functionName": "onEditedTaskIndexChanged",
+                        "line": 72
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 49,
+                        "durationMicroseconds": 467,
+                        "errorMessage": "",
+                        "functionName": "onEditedTaskIndexChanged",
+                        "line": 79
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 28,
+                        "durationMicroseconds": 97,
+                        "errorMessage": "",
+                        "functionName": "onCompleted",
+                        "line": 86
+                    }
+                ],
+                "filePath": "/home/ont/Documents/ToDoList/content/TasksListsView.qml"
+            }
+        ],
+        "moduleId": "content(todolist_content)"
+    }
+]

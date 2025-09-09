@@ -1,0 +1,116 @@
+[
+    {
+        "moduleFiles": [
+            {
+                "entries": [
+                    {
+                        "codegenSuccessful": false,
+                        "column": 5,
+                        "durationMicroseconds": 480,
+                        "errorMessage": "Cannot generate efficient code for LoadLocal",
+                        "functionName": "range",
+                        "line": 8
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 12,
+                        "durationMicroseconds": 0,
+                        "errorMessage": "Cannot resolve property type  for binding on years.",
+                        "functionName": "years",
+                        "line": 14
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 13,
+                        "durationMicroseconds": 0,
+                        "errorMessage": "Cannot resolve property type  for binding on months.",
+                        "functionName": "months",
+                        "line": 15
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 32,
+                        "durationMicroseconds": 0,
+                        "errorMessage": "Could not find property \"displayText\".",
+                        "functionName": "displayText",
+                        "line": 12
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 42,
+                        "durationMicroseconds": 0,
+                        "errorMessage": "Could not find signal \"currentIndexChanged\".",
+                        "functionName": "onCurrentIndexChanged",
+                        "line": 20
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 41,
+                        "durationMicroseconds": 0,
+                        "errorMessage": "Could not find signal \"currentIndexChanged\".",
+                        "functionName": "onCurrentIndexChanged",
+                        "line": 24
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 25,
+                        "durationMicroseconds": 113,
+                        "errorMessage": "Cannot access value for name currentMonth",
+                        "functionName": "onTapped",
+                        "line": 28
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 24,
+                        "durationMicroseconds": 67,
+                        "errorMessage": "Cannot access value for name currentYear",
+                        "functionName": "onTapped",
+                        "line": 36
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 28,
+                        "durationMicroseconds": 52,
+                        "errorMessage": "Cannot access value for name currentYear",
+                        "functionName": "onTapped",
+                        "line": 42
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 29,
+                        "durationMicroseconds": 88,
+                        "errorMessage": "Cannot access value for name currentMonth",
+                        "functionName": "onTapped",
+                        "line": 48
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 22,
+                        "durationMicroseconds": 92,
+                        "errorMessage": "Cannot find name visible",
+                        "functionName": "onTapped",
+                        "line": 56
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 25,
+                        "durationMicroseconds": 0,
+                        "errorMessage": "Could not find signal \"pressed\".",
+                        "functionName": "onPressed",
+                        "line": 57
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 25,
+                        "durationMicroseconds": 0,
+                        "errorMessage": "Could not find signal \"pressed\".",
+                        "functionName": "onPressed",
+                        "line": 57
+                    }
+                ],
+                "filePath": "/home/ont/Documents/ToDoList/content/CalendarView.qml"
+            }
+        ],
+        "moduleId": "content(todolist_content)"
+    }
+]

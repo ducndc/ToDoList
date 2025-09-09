@@ -1,0 +1,20 @@
+<RCC>
+  <qresource prefix="/qt/qml/CustomControls/">
+    <file alias="AmPmButton.qml">/home/ont/Documents/ToDoList/imports/CustomControls/AmPmButton.qml</file>
+    <file alias="CustomButton.qml">/home/ont/Documents/ToDoList/imports/CustomControls/CustomButton.qml</file>
+    <file alias="CustomLabel.qml">/home/ont/Documents/ToDoList/imports/CustomControls/CustomLabel.qml</file>
+    <file alias="CustomTextArea.qml">/home/ont/Documents/ToDoList/imports/CustomControls/CustomTextArea.qml</file>
+    <file alias="CustomTextField.qml">/home/ont/Documents/ToDoList/imports/CustomControls/CustomTextField.qml</file>
+    <file alias="SwipeDelegateContent.qml">/home/ont/Documents/ToDoList/imports/CustomControls/SwipeDelegateContent.qml</file>
+    <file alias="TasksListDelegate.qml">/home/ont/Documents/ToDoList/imports/CustomControls/TasksListDelegate.qml</file>
+    <file alias="TimeInput.qml">/home/ont/Documents/ToDoList/imports/CustomControls/TimeInput.qml</file>
+    <file alias="TimeTextField.qml">/home/ont/Documents/ToDoList/imports/CustomControls/TimeTextField.qml</file>
+    <file alias="images/Drag_Icon.svg">/home/ont/Documents/ToDoList/imports/CustomControls/images/Drag_Icon.svg</file>
+    <file alias="images/Drag_Icon_Dark.svg">/home/ont/Documents/ToDoList/imports/CustomControls/images/Drag_Icon_Dark.svg</file>
+    <file alias="images/Red_Trash.svg">/home/ont/Documents/ToDoList/imports/CustomControls/images/Red_Trash.svg</file>
+    <file alias="images/Star_Icon.svg">/home/ont/Documents/ToDoList/imports/CustomControls/images/Star_Icon.svg</file>
+    <file alias="images/White_Star.svg">/home/ont/Documents/ToDoList/imports/CustomControls/images/White_Star.svg</file>
+    <file alias="images/White_Trash.svg">/home/ont/Documents/ToDoList/imports/CustomControls/images/White_Trash.svg</file>
+  </qresource>
+</RCC>
+

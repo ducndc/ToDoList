@@ -1,0 +1,36 @@
+[
+    {
+        "moduleFiles": [
+            {
+                "entries": [
+                    {
+                        "codegenSuccessful": true,
+                        "column": 27,
+                        "durationMicroseconds": 146,
+                        "errorMessage": "",
+                        "functionName": "centerIn",
+                        "line": 19
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 39,
+                        "durationMicroseconds": 127,
+                        "errorMessage": "",
+                        "functionName": "horizontalCenter",
+                        "line": 24
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 39,
+                        "durationMicroseconds": 0,
+                        "errorMessage": "Could not find property \"horizontalCenter\".",
+                        "functionName": "horizontalCenter",
+                        "line": 31
+                    }
+                ],
+                "filePath": "/home/ont/Documents/ToDoList/imports/CustomControls/SwipeDelegateContent.qml"
+            }
+        ],
+        "moduleId": "CustomControls(CustomControls)"
+    }
+]

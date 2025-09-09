@@ -1,0 +1,1879 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "ToDoListApp"
+		}
+	],
+	"backtrace" : 4,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"_qt_internal_create_executable",
+			"qt6_add_executable",
+			"qt_add_executable",
+			"install",
+			"target_link_libraries",
+			"__qt_internal_propagate_object_files",
+			"__qt_internal_propagate_object_library",
+			"qt6_add_qml_module",
+			"__qt_propagate_generated_resource",
+			"_qt_internal_process_resource",
+			"qt6_add_resources",
+			"qt6_target_qml_sources",
+			"include",
+			"qt6_add_qml_plugin",
+			"set_target_properties",
+			"find_package",
+			"find_dependency",
+			"_qt_internal_find_qt_dependencies",
+			"set_property",
+			"_qt_internal_find_third_party_dependencies",
+			"add_dependencies",
+			"_qt_internal_qml_copy_files_to_build_dir",
+			"_qt_internal_scan_qml_imports",
+			"_qt_internal_generate_deploy_qml_imports_script",
+			"cmake_language",
+			"_qt_internal_finalize_executable",
+			"qt6_finalize_target",
+			"target_include_directories",
+			"_qt_internal_qml_type_registration",
+			"target_sources",
+			"qt_add_resources",
+			"qt6_extract_metatypes",
+			"_qt_internal_target_enable_qmlcachegen",
+			"_qt_internal_expose_deferred_files_to_ide"
+		],
+		"files" : 
+		[
+			"/home/ont/Qt/6.9.1/gcc_64/lib/cmake/Qt6Core/Qt6CoreMacros.cmake",
+			"CMakeLists.txt",
+			"/home/ont/Qt/6.9.1/gcc_64/lib/cmake/Qt6Qml/Qt6QmlMacros.cmake",
+			"content/CMakeLists.txt",
+			"imports/CustomControls/CMakeLists.txt",
+			"imports/CustomStyle/CMakeLists.txt",
+			"imports/ToDoList/CMakeLists.txt",
+			"qmlmodules.cmake",
+			"/home/ont/Qt/6.9.1/gcc_64/lib/cmake/Qt6Quick/Qt6QuickTargets.cmake",
+			"/home/ont/Qt/6.9.1/gcc_64/lib/cmake/Qt6Quick/Qt6QuickConfig.cmake",
+			"build/.qtc/package-manager/maintenance_tool_provider.cmake",
+			"/home/ont/Qt/6.9.1/gcc_64/lib/cmake/Qt6/Qt6Config.cmake",
+			"/home/ont/Qt/6.9.1/gcc_64/lib/cmake/Qt6QmlMeta/Qt6QmlMetaTargets.cmake",
+			"/home/ont/Qt/6.9.1/gcc_64/lib/cmake/Qt6QmlMeta/Qt6QmlMetaConfig.cmake",
+			"/home/ont/Qt/Tools/CMake/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake",
+			"/home/ont/Qt/6.9.1/gcc_64/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake",
+			"/home/ont/Qt/6.9.1/gcc_64/lib/cmake/Qt6Quick/Qt6QuickDependencies.cmake",
+			"/home/ont/Qt/Tools/CMake/share/cmake-3.30/Modules/FindOpenGL.cmake",
+			"/home/ont/Qt/6.9.1/gcc_64/lib/cmake/Qt6/FindWrapOpenGL.cmake",
+			"/home/ont/Qt/6.9.1/gcc_64/lib/cmake/Qt6Gui/Qt6GuiDependencies.cmake",
+			"/home/ont/Qt/6.9.1/gcc_64/lib/cmake/Qt6Gui/Qt6GuiConfig.cmake",
+			"/home/ont/Qt/6.9.1/gcc_64/lib/cmake/Qt6Qml/Qt6QmlTargets.cmake",
+			"/home/ont/Qt/6.9.1/gcc_64/lib/cmake/Qt6Qml/Qt6QmlConfig.cmake",
+			"/home/ont/Qt/6.9.1/gcc_64/lib/cmake/Qt6Core/Qt6CoreMacros.cmake:787:EVAL"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 12,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 935,
+				"parent" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 639,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 690,
+				"parent" : 3
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 34,
+				"parent" : 0
+			},
+			{
+				"file" : 3
+			},
+			{
+				"command" : 8,
+				"file" : 3,
+				"line" : 5,
+				"parent" : 6
+			},
+			{
+				"command" : 7,
+				"file" : 2,
+				"line" : 937,
+				"parent" : 7
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 1990,
+				"parent" : 8
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 1938,
+				"parent" : 9
+			},
+			{
+				"file" : 4
+			},
+			{
+				"command" : 8,
+				"file" : 4,
+				"line" : 5,
+				"parent" : 11
+			},
+			{
+				"command" : 7,
+				"file" : 2,
+				"line" : 937,
+				"parent" : 12
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 1990,
+				"parent" : 13
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 1938,
+				"parent" : 14
+			},
+			{
+				"file" : 5
+			},
+			{
+				"command" : 8,
+				"file" : 5,
+				"line" : 5,
+				"parent" : 16
+			},
+			{
+				"command" : 7,
+				"file" : 2,
+				"line" : 937,
+				"parent" : 17
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 1990,
+				"parent" : 18
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 1938,
+				"parent" : 19
+			},
+			{
+				"file" : 6
+			},
+			{
+				"command" : 8,
+				"file" : 6,
+				"line" : 20,
+				"parent" : 21
+			},
+			{
+				"command" : 7,
+				"file" : 2,
+				"line" : 937,
+				"parent" : 22
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 1990,
+				"parent" : 23
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 1938,
+				"parent" : 24
+			},
+			{
+				"command" : 11,
+				"file" : 2,
+				"line" : 850,
+				"parent" : 7
+			},
+			{
+				"command" : 10,
+				"file" : 0,
+				"line" : 401,
+				"parent" : 26
+			},
+			{
+				"command" : 9,
+				"file" : 0,
+				"line" : 2528,
+				"parent" : 27
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 2063,
+				"parent" : 28
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 1990,
+				"parent" : 29
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 1938,
+				"parent" : 30
+			},
+			{
+				"command" : 12,
+				"file" : 2,
+				"line" : 916,
+				"parent" : 7
+			},
+			{
+				"command" : 11,
+				"file" : 2,
+				"line" : 3519,
+				"parent" : 32
+			},
+			{
+				"command" : 10,
+				"file" : 0,
+				"line" : 401,
+				"parent" : 33
+			},
+			{
+				"command" : 9,
+				"file" : 0,
+				"line" : 2528,
+				"parent" : 34
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 2063,
+				"parent" : 35
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 1990,
+				"parent" : 36
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 1938,
+				"parent" : 37
+			},
+			{
+				"command" : 11,
+				"file" : 2,
+				"line" : 850,
+				"parent" : 12
+			},
+			{
+				"command" : 10,
+				"file" : 0,
+				"line" : 401,
+				"parent" : 39
+			},
+			{
+				"command" : 9,
+				"file" : 0,
+				"line" : 2528,
+				"parent" : 40
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 2063,
+				"parent" : 41
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 1990,
+				"parent" : 42
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 1938,
+				"parent" : 43
+			},
+			{
+				"command" : 12,
+				"file" : 2,
+				"line" : 916,
+				"parent" : 12
+			},
+			{
+				"command" : 11,
+				"file" : 2,
+				"line" : 3519,
+				"parent" : 45
+			},
+			{
+				"command" : 10,
+				"file" : 0,
+				"line" : 401,
+				"parent" : 46
+			},
+			{
+				"command" : 9,
+				"file" : 0,
+				"line" : 2528,
+				"parent" : 47
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 2063,
+				"parent" : 48
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 1990,
+				"parent" : 49
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 1938,
+				"parent" : 50
+			},
+			{
+				"command" : 11,
+				"file" : 2,
+				"line" : 850,
+				"parent" : 17
+			},
+			{
+				"command" : 10,
+				"file" : 0,
+				"line" : 401,
+				"parent" : 52
+			},
+			{
+				"command" : 9,
+				"file" : 0,
+				"line" : 2528,
+				"parent" : 53
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 2063,
+				"parent" : 54
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 1990,
+				"parent" : 55
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 1938,
+				"parent" : 56
+			},
+			{
+				"command" : 12,
+				"file" : 2,
+				"line" : 916,
+				"parent" : 17
+			},
+			{
+				"command" : 11,
+				"file" : 2,
+				"line" : 3519,
+				"parent" : 58
+			},
+			{
+				"command" : 10,
+				"file" : 0,
+				"line" : 401,
+				"parent" : 59
+			},
+			{
+				"command" : 9,
+				"file" : 0,
+				"line" : 2528,
+				"parent" : 60
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 2063,
+				"parent" : 61
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 1990,
+				"parent" : 62
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 1938,
+				"parent" : 63
+			},
+			{
+				"command" : 11,
+				"file" : 2,
+				"line" : 850,
+				"parent" : 22
+			},
+			{
+				"command" : 10,
+				"file" : 0,
+				"line" : 401,
+				"parent" : 65
+			},
+			{
+				"command" : 9,
+				"file" : 0,
+				"line" : 2528,
+				"parent" : 66
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 2063,
+				"parent" : 67
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 1990,
+				"parent" : 68
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 1938,
+				"parent" : 69
+			},
+			{
+				"command" : 12,
+				"file" : 2,
+				"line" : 916,
+				"parent" : 22
+			},
+			{
+				"command" : 11,
+				"file" : 2,
+				"line" : 3519,
+				"parent" : 71
+			},
+			{
+				"command" : 10,
+				"file" : 0,
+				"line" : 401,
+				"parent" : 72
+			},
+			{
+				"command" : 9,
+				"file" : 0,
+				"line" : 2528,
+				"parent" : 73
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 2063,
+				"parent" : 74
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 1990,
+				"parent" : 75
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 1938,
+				"parent" : 76
+			},
+			{
+				"command" : 13,
+				"file" : 1,
+				"line" : 24,
+				"parent" : 0
+			},
+			{
+				"file" : 7,
+				"parent" : 78
+			},
+			{
+				"command" : 5,
+				"file" : 7,
+				"line" : 14,
+				"parent" : 79
+			},
+			{
+				"command" : 5,
+				"file" : 1,
+				"line" : 26,
+				"parent" : 0
+			},
+			{
+				"command" : 14,
+				"file" : 2,
+				"line" : 885,
+				"parent" : 7
+			},
+			{
+				"command" : 5,
+				"file" : 2,
+				"line" : 2713,
+				"parent" : 82
+			},
+			{
+				"command" : 14,
+				"file" : 2,
+				"line" : 885,
+				"parent" : 12
+			},
+			{
+				"command" : 5,
+				"file" : 2,
+				"line" : 2713,
+				"parent" : 84
+			},
+			{
+				"command" : 14,
+				"file" : 2,
+				"line" : 885,
+				"parent" : 17
+			},
+			{
+				"command" : 5,
+				"file" : 2,
+				"line" : 2713,
+				"parent" : 86
+			},
+			{
+				"command" : 14,
+				"file" : 2,
+				"line" : 885,
+				"parent" : 22
+			},
+			{
+				"command" : 5,
+				"file" : 2,
+				"line" : 2713,
+				"parent" : 88
+			},
+			{
+				"command" : 16,
+				"file" : 1,
+				"line" : 8,
+				"parent" : 0
+			},
+			{
+				"command" : 16,
+				"file" : 10,
+				"line" : 315,
+				"parent" : 90
+			},
+			{
+				"file" : 11,
+				"parent" : 91
+			},
+			{
+				"command" : 16,
+				"file" : 11,
+				"line" : 218,
+				"parent" : 92
+			},
+			{
+				"command" : 16,
+				"file" : 10,
+				"line" : 315,
+				"parent" : 93
+			},
+			{
+				"file" : 9,
+				"parent" : 94
+			},
+			{
+				"command" : 13,
+				"file" : 9,
+				"line" : 55,
+				"parent" : 95
+			},
+			{
+				"file" : 8,
+				"parent" : 96
+			},
+			{
+				"command" : 15,
+				"file" : 8,
+				"line" : 61,
+				"parent" : 97
+			},
+			{
+				"command" : 13,
+				"file" : 9,
+				"line" : 43,
+				"parent" : 95
+			},
+			{
+				"file" : 16,
+				"parent" : 99
+			},
+			{
+				"command" : 18,
+				"file" : 16,
+				"line" : 45,
+				"parent" : 100
+			},
+			{
+				"command" : 17,
+				"file" : 15,
+				"line" : 137,
+				"parent" : 101
+			},
+			{
+				"command" : 16,
+				"file" : 14,
+				"line" : 76,
+				"parent" : 102
+			},
+			{
+				"command" : 16,
+				"file" : 10,
+				"line" : 315,
+				"parent" : 103
+			},
+			{
+				"file" : 13,
+				"parent" : 104
+			},
+			{
+				"command" : 13,
+				"file" : 13,
+				"line" : 55,
+				"parent" : 105
+			},
+			{
+				"file" : 12,
+				"parent" : 106
+			},
+			{
+				"command" : 15,
+				"file" : 12,
+				"line" : 61,
+				"parent" : 107
+			},
+			{
+				"command" : 16,
+				"file" : 11,
+				"line" : 218,
+				"parent" : 92
+			},
+			{
+				"command" : 16,
+				"file" : 10,
+				"line" : 315,
+				"parent" : 109
+			},
+			{
+				"file" : 20,
+				"parent" : 110
+			},
+			{
+				"command" : 13,
+				"file" : 20,
+				"line" : 43,
+				"parent" : 111
+			},
+			{
+				"file" : 19,
+				"parent" : 112
+			},
+			{
+				"command" : 20,
+				"file" : 19,
+				"line" : 36,
+				"parent" : 113
+			},
+			{
+				"command" : 17,
+				"file" : 15,
+				"line" : 36,
+				"parent" : 114
+			},
+			{
+				"command" : 16,
+				"file" : 14,
+				"line" : 76,
+				"parent" : 115
+			},
+			{
+				"command" : 16,
+				"file" : 10,
+				"line" : 322,
+				"parent" : 116
+			},
+			{
+				"file" : 18,
+				"parent" : 117
+			},
+			{
+				"command" : 16,
+				"file" : 18,
+				"line" : 13,
+				"parent" : 118
+			},
+			{
+				"command" : 16,
+				"file" : 10,
+				"line" : 322,
+				"parent" : 119
+			},
+			{
+				"file" : 17,
+				"parent" : 120
+			},
+			{
+				"command" : 19,
+				"file" : 17,
+				"line" : 712,
+				"parent" : 121
+			},
+			{
+				"command" : 15,
+				"file" : 17,
+				"line" : 710,
+				"parent" : 121
+			},
+			{
+				"command" : 8,
+				"file" : 7,
+				"line" : 4,
+				"parent" : 79
+			},
+			{
+				"command" : 5,
+				"file" : 2,
+				"line" : 596,
+				"parent" : 124
+			},
+			{
+				"command" : 16,
+				"file" : 11,
+				"line" : 218,
+				"parent" : 92
+			},
+			{
+				"command" : 16,
+				"file" : 10,
+				"line" : 315,
+				"parent" : 126
+			},
+			{
+				"file" : 22,
+				"parent" : 127
+			},
+			{
+				"command" : 13,
+				"file" : 22,
+				"line" : 58,
+				"parent" : 128
+			},
+			{
+				"file" : 21,
+				"parent" : 129
+			},
+			{
+				"command" : 15,
+				"file" : 21,
+				"line" : 61,
+				"parent" : 130
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 640,
+				"parent" : 2
+			},
+			{
+				"command" : 12,
+				"file" : 2,
+				"line" : 916,
+				"parent" : 124
+			},
+			{
+				"command" : 22,
+				"file" : 2,
+				"line" : 3497,
+				"parent" : 133
+			},
+			{
+				"command" : 21,
+				"file" : 2,
+				"line" : 2860,
+				"parent" : 134
+			},
+			{
+				"command" : 22,
+				"file" : 2,
+				"line" : 3503,
+				"parent" : 133
+			},
+			{
+				"command" : 21,
+				"file" : 2,
+				"line" : 2860,
+				"parent" : 136
+			},
+			{
+				"file" : 1,
+				"line" : -1,
+				"parent" : 0
+			},
+			{
+				"command" : 27,
+				"file" : 23,
+				"line" : 1,
+				"parent" : 138
+			},
+			{
+				"command" : 26,
+				"file" : 0,
+				"line" : 818,
+				"parent" : 139
+			},
+			{
+				"command" : 25,
+				"file" : 0,
+				"line" : 740,
+				"parent" : 140
+			},
+			{
+				"command" : 24,
+				"file" : 0,
+				"line" : 740,
+				"parent" : 141
+			},
+			{
+				"command" : 23,
+				"file" : 2,
+				"line" : 4401,
+				"parent" : 142
+			},
+			{
+				"command" : 21,
+				"file" : 2,
+				"line" : 4176,
+				"parent" : 143
+			},
+			{
+				"command" : 29,
+				"file" : 2,
+				"line" : 796,
+				"parent" : 124
+			},
+			{
+				"command" : 28,
+				"file" : 2,
+				"line" : 3879,
+				"parent" : 145
+			},
+			{
+				"command" : 28,
+				"file" : 2,
+				"line" : 3904,
+				"parent" : 145
+			},
+			{
+				"command" : 31,
+				"file" : 1,
+				"line" : 18,
+				"parent" : 0
+			},
+			{
+				"command" : 11,
+				"file" : 0,
+				"line" : 453,
+				"parent" : 148
+			},
+			{
+				"command" : 10,
+				"file" : 0,
+				"line" : 401,
+				"parent" : 149
+			},
+			{
+				"command" : 9,
+				"file" : 0,
+				"line" : 2528,
+				"parent" : 150
+			},
+			{
+				"command" : 30,
+				"file" : 0,
+				"line" : 2072,
+				"parent" : 151
+			},
+			{
+				"command" : 32,
+				"file" : 2,
+				"line" : 3704,
+				"parent" : 145
+			},
+			{
+				"command" : 30,
+				"file" : 0,
+				"line" : 1486,
+				"parent" : 153
+			},
+			{
+				"command" : 30,
+				"file" : 2,
+				"line" : 3870,
+				"parent" : 145
+			},
+			{
+				"command" : 11,
+				"file" : 2,
+				"line" : 850,
+				"parent" : 124
+			},
+			{
+				"command" : 10,
+				"file" : 0,
+				"line" : 401,
+				"parent" : 156
+			},
+			{
+				"command" : 9,
+				"file" : 0,
+				"line" : 2528,
+				"parent" : 157
+			},
+			{
+				"command" : 30,
+				"file" : 0,
+				"line" : 2072,
+				"parent" : 158
+			},
+			{
+				"command" : 30,
+				"file" : 2,
+				"line" : 3205,
+				"parent" : 133
+			},
+			{
+				"command" : 33,
+				"file" : 2,
+				"line" : 3342,
+				"parent" : 133
+			},
+			{
+				"command" : 30,
+				"file" : 2,
+				"line" : 1696,
+				"parent" : 161
+			},
+			{
+				"command" : 30,
+				"file" : 2,
+				"line" : 3398,
+				"parent" : 133
+			},
+			{
+				"command" : 11,
+				"file" : 2,
+				"line" : 3519,
+				"parent" : 133
+			},
+			{
+				"command" : 10,
+				"file" : 0,
+				"line" : 401,
+				"parent" : 164
+			},
+			{
+				"command" : 9,
+				"file" : 0,
+				"line" : 2528,
+				"parent" : 165
+			},
+			{
+				"command" : 30,
+				"file" : 0,
+				"line" : 2072,
+				"parent" : 166
+			},
+			{
+				"command" : 34,
+				"file" : 0,
+				"line" : 812,
+				"parent" : 139
+			},
+			{
+				"command" : 30,
+				"file" : 0,
+				"line" : 2197,
+				"parent" : 168
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-DQT_QML_DEBUG -g -fdiagnostics-color=always"
+				},
+				{
+					"backtrace" : 132,
+					"fragment" : "-fPIC"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 132,
+					"define" : "QT_CORE_LIB"
+				},
+				{
+					"backtrace" : 81,
+					"define" : "QT_GUI_LIB"
+				},
+				{
+					"backtrace" : 125,
+					"define" : "QT_NETWORK_LIB"
+				},
+				{
+					"backtrace" : 81,
+					"define" : "QT_OPENGL_LIB"
+				},
+				{
+					"backtrace" : 125,
+					"define" : "QT_QMLINTEGRATION_LIB"
+				},
+				{
+					"backtrace" : 81,
+					"define" : "QT_QMLMETA_LIB"
+				},
+				{
+					"backtrace" : 81,
+					"define" : "QT_QMLMODELS_LIB"
+				},
+				{
+					"backtrace" : 81,
+					"define" : "QT_QMLWORKERSCRIPT_LIB"
+				},
+				{
+					"backtrace" : 125,
+					"define" : "QT_QML_LIB"
+				},
+				{
+					"backtrace" : 81,
+					"define" : "QT_QUICKCONTROLS2_LIB"
+				},
+				{
+					"backtrace" : 81,
+					"define" : "QT_QUICK_LIB"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 0,
+					"path" : "/home/ont/Documents/ToDoList/build/ToDoListApp_autogen/include"
+				},
+				{
+					"backtrace" : 146,
+					"path" : "/home/ont/Documents/ToDoList"
+				},
+				{
+					"backtrace" : 147,
+					"isSystem" : true,
+					"path" : "/home/ont/Qt/6.9.1/gcc_64/include/QtQml/6.9.1"
+				},
+				{
+					"backtrace" : 147,
+					"isSystem" : true,
+					"path" : "/home/ont/Qt/6.9.1/gcc_64/include/QtQml/6.9.1/QtQml"
+				},
+				{
+					"backtrace" : 147,
+					"isSystem" : true,
+					"path" : "/home/ont/Qt/6.9.1/gcc_64/include/QtCore/6.9.1"
+				},
+				{
+					"backtrace" : 147,
+					"isSystem" : true,
+					"path" : "/home/ont/Qt/6.9.1/gcc_64/include/QtCore/6.9.1/QtCore"
+				},
+				{
+					"backtrace" : 147,
+					"isSystem" : true,
+					"path" : "/home/ont/Qt/6.9.1/gcc_64/include/QtCore"
+				},
+				{
+					"backtrace" : 147,
+					"isSystem" : true,
+					"path" : "/home/ont/Qt/6.9.1/gcc_64/include"
+				},
+				{
+					"backtrace" : 147,
+					"isSystem" : true,
+					"path" : "/home/ont/Qt/6.9.1/gcc_64/mkspecs/linux-g++"
+				},
+				{
+					"backtrace" : 147,
+					"isSystem" : true,
+					"path" : "/home/ont/Qt/6.9.1/gcc_64/include/QtQml"
+				},
+				{
+					"backtrace" : 147,
+					"isSystem" : true,
+					"path" : "/home/ont/Qt/6.9.1/gcc_64/include/QtQmlIntegration"
+				},
+				{
+					"backtrace" : 147,
+					"isSystem" : true,
+					"path" : "/home/ont/Qt/6.9.1/gcc_64/include/QtNetwork"
+				},
+				{
+					"backtrace" : 81,
+					"isSystem" : true,
+					"path" : "/home/ont/Qt/6.9.1/gcc_64/include/QtGui"
+				},
+				{
+					"backtrace" : 81,
+					"isSystem" : true,
+					"path" : "/home/ont/Qt/6.9.1/gcc_64/include/QtQuick"
+				},
+				{
+					"backtrace" : 81,
+					"isSystem" : true,
+					"path" : "/home/ont/Qt/6.9.1/gcc_64/include/QtQmlMeta"
+				},
+				{
+					"backtrace" : 81,
+					"isSystem" : true,
+					"path" : "/home/ont/Qt/6.9.1/gcc_64/include/QtQmlModels"
+				},
+				{
+					"backtrace" : 81,
+					"isSystem" : true,
+					"path" : "/home/ont/Qt/6.9.1/gcc_64/include/QtQmlWorkerScript"
+				},
+				{
+					"backtrace" : 81,
+					"isSystem" : true,
+					"path" : "/home/ont/Qt/6.9.1/gcc_64/include/QtOpenGL"
+				},
+				{
+					"backtrace" : 81,
+					"isSystem" : true,
+					"path" : "/home/ont/Qt/6.9.1/gcc_64/include/QtQuickControls2"
+				}
+			],
+			"language" : "CXX",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				4,
+				5,
+				7,
+				8,
+				9
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 135,
+			"id" : "ToDoListApp_copy_qml::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 137,
+			"id" : "ToDoListApp_copy_res::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 144,
+			"id" : "ToDoListApp_qmlimportscan::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 80,
+			"id" : "todolist_content::@73a38b9e525c9c2ae262"
+		},
+		{
+			"backtrace" : 80,
+			"id" : "todolist_content_resources_1::@73a38b9e525c9c2ae262"
+		},
+		{
+			"backtrace" : 80,
+			"id" : "todolist_contentplugin::@73a38b9e525c9c2ae262"
+		},
+		{
+			"backtrace" : 80,
+			"id" : "todolist_content_resources_2::@73a38b9e525c9c2ae262"
+		},
+		{
+			"backtrace" : 80,
+			"id" : "todolist_contentplugin_init::@73a38b9e525c9c2ae262"
+		},
+		{
+			"backtrace" : 80,
+			"id" : "CustomControls::@d33e5adc7e95dafa3d0f"
+		},
+		{
+			"backtrace" : 80,
+			"id" : "CustomControls_resources_1::@d33e5adc7e95dafa3d0f"
+		},
+		{
+			"backtrace" : 80,
+			"id" : "CustomControlsplugin::@d33e5adc7e95dafa3d0f"
+		},
+		{
+			"backtrace" : 80,
+			"id" : "CustomControls_resources_2::@d33e5adc7e95dafa3d0f"
+		},
+		{
+			"backtrace" : 80,
+			"id" : "CustomControlsplugin_init::@d33e5adc7e95dafa3d0f"
+		},
+		{
+			"backtrace" : 80,
+			"id" : "CustomStyle::@101802947724fe7ee449"
+		},
+		{
+			"backtrace" : 80,
+			"id" : "CustomStyle_resources_1::@101802947724fe7ee449"
+		},
+		{
+			"backtrace" : 80,
+			"id" : "CustomStyleplugin::@101802947724fe7ee449"
+		},
+		{
+			"backtrace" : 80,
+			"id" : "CustomStyle_resources_2::@101802947724fe7ee449"
+		},
+		{
+			"backtrace" : 80,
+			"id" : "CustomStyleplugin_init::@101802947724fe7ee449"
+		},
+		{
+			"backtrace" : 80,
+			"id" : "ToDoList::@e428b5e0f859b63a0006"
+		},
+		{
+			"backtrace" : 80,
+			"id" : "ToDoList_resources_1::@e428b5e0f859b63a0006"
+		},
+		{
+			"backtrace" : 80,
+			"id" : "ToDoListplugin::@e428b5e0f859b63a0006"
+		},
+		{
+			"backtrace" : 80,
+			"id" : "ToDoList_resources_2::@e428b5e0f859b63a0006"
+		},
+		{
+			"backtrace" : 80,
+			"id" : "ToDoListplugin_init::@e428b5e0f859b63a0006"
+		},
+		{
+			"id" : "ToDoListApp_autogen_timestamp_deps::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "ToDoListApp_autogen::@6890427a1f51a3e7e1df"
+		}
+	],
+	"id" : "ToDoListApp::@6890427a1f51a3e7e1df",
+	"install" : 
+	{
+		"destinations" : 
+		[
+			{
+				"backtrace" : 5,
+				"path" : "bin"
+			}
+		],
+		"prefix" : 
+		{
+			"path" : "/tmp"
+		}
+	},
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-DQT_QML_DEBUG -g",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "-Wl,-rpath,/home/ont/Qt/6.9.1/gcc_64/lib:",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 10,
+				"fragment" : "content/CMakeFiles/todolist_contentplugin_init.dir/./todolist_contentplugin_init_autogen/mocs_compilation.cpp.o",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 10,
+				"fragment" : "content/CMakeFiles/todolist_contentplugin_init.dir/./todolist_contentplugin_init.cpp.o",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 15,
+				"fragment" : "imports/CustomControls/CMakeFiles/CustomControlsplugin_init.dir/./CustomControlsplugin_init_autogen/mocs_compilation.cpp.o",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 15,
+				"fragment" : "imports/CustomControls/CMakeFiles/CustomControlsplugin_init.dir/./CustomControlsplugin_init.cpp.o",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 20,
+				"fragment" : "imports/CustomStyle/CMakeFiles/CustomStyleplugin_init.dir/./CustomStyleplugin_init_autogen/mocs_compilation.cpp.o",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 20,
+				"fragment" : "imports/CustomStyle/CMakeFiles/CustomStyleplugin_init.dir/./CustomStyleplugin_init.cpp.o",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 25,
+				"fragment" : "imports/ToDoList/CMakeFiles/ToDoListplugin_init.dir/./ToDoListplugin_init_autogen/mocs_compilation.cpp.o",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 25,
+				"fragment" : "imports/ToDoList/CMakeFiles/ToDoListplugin_init.dir/./ToDoListplugin_init.cpp.o",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 31,
+				"fragment" : "content/CMakeFiles/todolist_content_resources_1.dir/./.qt/rcc/qrc_qmake_content_init.cpp.o",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 38,
+				"fragment" : "content/CMakeFiles/todolist_content_resources_2.dir/./.qt/rcc/qrc_todolist_content_raw_qml_0_init.cpp.o",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 44,
+				"fragment" : "imports/CustomControls/CMakeFiles/CustomControls_resources_1.dir/./.qt/rcc/qrc_qmake_CustomControls_init.cpp.o",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 51,
+				"fragment" : "imports/CustomControls/CMakeFiles/CustomControls_resources_2.dir/./.qt/rcc/qrc_CustomControls_raw_qml_0_init.cpp.o",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 57,
+				"fragment" : "imports/CustomStyle/CMakeFiles/CustomStyle_resources_1.dir/./.qt/rcc/qrc_qmake_CustomStyle_init.cpp.o",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 64,
+				"fragment" : "imports/CustomStyle/CMakeFiles/CustomStyle_resources_2.dir/./.qt/rcc/qrc_CustomStyle_raw_qml_0_init.cpp.o",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 70,
+				"fragment" : "imports/ToDoList/CMakeFiles/ToDoList_resources_1.dir/./.qt/rcc/qrc_qmake_ToDoList_init.cpp.o",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 77,
+				"fragment" : "imports/ToDoList/CMakeFiles/ToDoList_resources_2.dir/./.qt/rcc/qrc_ToDoList_raw_qml_0_init.cpp.o",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 80,
+				"fragment" : "content/libtodolist_contentplugin.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 80,
+				"fragment" : "imports/CustomControls/libCustomControlsplugin.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 80,
+				"fragment" : "imports/CustomStyle/libCustomStyleplugin.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 80,
+				"fragment" : "imports/ToDoList/libToDoListplugin.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 81,
+				"fragment" : "/home/ont/Qt/6.9.1/gcc_64/lib/libQt6QuickControls2.so.6.9.1",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 80,
+				"fragment" : "content/libtodolist_contentplugin.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 83,
+				"fragment" : "content/libtodolist_content.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 85,
+				"fragment" : "imports/CustomControls/libCustomControls.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 87,
+				"fragment" : "imports/CustomStyle/libCustomStyle.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 89,
+				"fragment" : "imports/ToDoList/libToDoList.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 81,
+				"fragment" : "/home/ont/Qt/6.9.1/gcc_64/lib/libQt6Quick.so.6.9.1",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 98,
+				"fragment" : "/home/ont/Qt/6.9.1/gcc_64/lib/libQt6QmlMeta.so.6.9.1",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 108,
+				"fragment" : "/home/ont/Qt/6.9.1/gcc_64/lib/libQt6QmlWorkerScript.so.6.9.1",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 98,
+				"fragment" : "/home/ont/Qt/6.9.1/gcc_64/lib/libQt6OpenGL.so.6.9.1",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 81,
+				"fragment" : "/home/ont/Qt/6.9.1/gcc_64/lib/libQt6Gui.so.6.9.1",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 122,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libGLX.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 123,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libOpenGL.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 98,
+				"fragment" : "/home/ont/Qt/6.9.1/gcc_64/lib/libQt6QmlModels.so.6.9.1",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 125,
+				"fragment" : "/home/ont/Qt/6.9.1/gcc_64/lib/libQt6Qml.so.6.9.1",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 131,
+				"fragment" : "/home/ont/Qt/6.9.1/gcc_64/lib/libQt6Network.so.6.9.1",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 132,
+				"fragment" : "/home/ont/Qt/6.9.1/gcc_64/lib/libQt6Core.so.6.9.1",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-Wl,-rpath-link,/home/ont/Qt/6.9.1/gcc_64/lib",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "ToDoListApp",
+	"nameOnDisk" : "ToDoListApp",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files\\Generated",
+			"sourceIndexes" : 
+			[
+				0,
+				2,
+				3,
+				4,
+				5,
+				7,
+				8,
+				9,
+				10,
+				12,
+				13,
+				14,
+				15,
+				25,
+				26,
+				27,
+				28,
+				29,
+				30,
+				31,
+				32,
+				33,
+				34,
+				35,
+				36,
+				37,
+				38,
+				39,
+				40,
+				41,
+				42
+			]
+		},
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				1,
+				6
+			]
+		},
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				11
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 0,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "build/ToDoListApp_autogen/mocs_compilation.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "src/main.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 152,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "build/.qt/rcc/qrc_configuration.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 154,
+			"isGenerated" : true,
+			"path" : "build/meta_types/qt6todolistapp_debug_metatypes.json.gen",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 155,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "build/todolistapp_qmltyperegistrations.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 159,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "build/.qt/rcc/qrc_qmake_Main.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 160,
+			"path" : "Main.qml",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 162,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "build/.rcc/qmlcache/ToDoListApp_qmlcache_loader.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 163,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "build/.rcc/qmlcache/ToDoListApp_Main_qml.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 167,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "build/.qt/rcc/qrc_ToDoListApp_raw_qml_0.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 169,
+			"isGenerated" : true,
+			"path" : "build/.qt/rcc/configuration.qrc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 169,
+			"path" : "qtquickcontrols2.conf",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 169,
+			"isGenerated" : true,
+			"path" : "build/.qt/rcc/qmake_Main.qrc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 169,
+			"isGenerated" : true,
+			"path" : "build/Main/qmldir",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 169,
+			"isGenerated" : true,
+			"path" : "build/.qt/rcc/ToDoListApp_raw_qml_0.qrc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/ToDoListApp_autogen/timestamp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/.qt/rcc/qrc_configuration.cpp.rule",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/meta_types/qt6todolistapp_debug_metatypes.json.gen.rule",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/todolistapp_qmltyperegistrations.cpp.rule",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/.qt/rcc/qrc_qmake_Main.cpp.rule",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/.rcc/qmlcache/ToDoListApp_qmlcache_loader.cpp.rule",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/.rcc/qmlcache/ToDoListApp_Main_qml.cpp.rule",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/.qt/rcc/qrc_ToDoListApp_raw_qml_0.cpp.rule",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/ToDoListApp_autogen/timestamp.rule",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/meta_types/ToDoListApp_json_file_list.txt.rule",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 132,
+			"path" : "/home/ont/Qt/6.9.1/gcc_64/metatypes/qt6core_relwithdebinfo_metatypes.json",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 125,
+			"path" : "/home/ont/Qt/6.9.1/gcc_64/metatypes/qt6qml_relwithdebinfo_metatypes.json",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 125,
+			"path" : "/home/ont/Qt/6.9.1/gcc_64/metatypes/qt6network_relwithdebinfo_metatypes.json",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 80,
+			"path" : "build/content/meta_types/qt6todolist_content_debug_metatypes.json",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 80,
+			"path" : "build/content/meta_types/qt6todolist_contentplugin_init_debug_metatypes.json",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 80,
+			"path" : "build/imports/CustomControls/meta_types/qt6customcontrols_debug_metatypes.json",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 80,
+			"path" : "build/imports/CustomControls/meta_types/qt6customcontrolsplugin_init_debug_metatypes.json",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 80,
+			"path" : "build/imports/CustomStyle/meta_types/qt6customstyle_debug_metatypes.json",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 80,
+			"path" : "build/imports/CustomStyle/meta_types/qt6customstyleplugin_init_debug_metatypes.json",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 80,
+			"path" : "build/imports/ToDoList/meta_types/qt6todolist_debug_metatypes.json",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 80,
+			"path" : "build/imports/ToDoList/meta_types/qt6todolistplugin_init_debug_metatypes.json",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 81,
+			"path" : "/home/ont/Qt/6.9.1/gcc_64/metatypes/qt6gui_relwithdebinfo_metatypes.json",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 81,
+			"path" : "/home/ont/Qt/6.9.1/gcc_64/metatypes/qt6quick_relwithdebinfo_metatypes.json",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 81,
+			"path" : "/home/ont/Qt/6.9.1/gcc_64/metatypes/qt6qmlmeta_relwithdebinfo_metatypes.json",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 81,
+			"path" : "/home/ont/Qt/6.9.1/gcc_64/metatypes/qt6qmlmodels_relwithdebinfo_metatypes.json",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 81,
+			"path" : "/home/ont/Qt/6.9.1/gcc_64/metatypes/qt6qmlworkerscript_relwithdebinfo_metatypes.json",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 81,
+			"path" : "/home/ont/Qt/6.9.1/gcc_64/metatypes/qt6opengl_relwithdebinfo_metatypes.json",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 81,
+			"path" : "/home/ont/Qt/6.9.1/gcc_64/metatypes/qt6quickcontrols2_relwithdebinfo_metatypes.json",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "EXECUTABLE"
+}

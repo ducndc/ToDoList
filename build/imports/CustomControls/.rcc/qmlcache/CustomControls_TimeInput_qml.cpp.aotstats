@@ -1,0 +1,52 @@
+[
+    {
+        "moduleFiles": [
+            {
+                "entries": [
+                    {
+                        "codegenSuccessful": true,
+                        "column": 27,
+                        "durationMicroseconds": 253,
+                        "errorMessage": "",
+                        "functionName": "amPm",
+                        "line": 19
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 24,
+                        "durationMicroseconds": 113,
+                        "errorMessage": "",
+                        "functionName": "isFocused",
+                        "line": 29
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 29,
+                        "durationMicroseconds": 109,
+                        "errorMessage": "Cannot generate efficient code for MoveRegExp",
+                        "functionName": "regexValidator",
+                        "line": 30
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 20,
+                        "durationMicroseconds": 0,
+                        "errorMessage": "Could not find property \"color\".",
+                        "functionName": "color",
+                        "line": 36
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 29,
+                        "durationMicroseconds": 79,
+                        "errorMessage": "Cannot generate efficient code for MoveRegExp",
+                        "functionName": "regexValidator",
+                        "line": 43
+                    }
+                ],
+                "filePath": "/home/ont/Documents/ToDoList/imports/CustomControls/TimeInput.qml"
+            }
+        ],
+        "moduleId": "CustomControls(CustomControls)"
+    }
+]

@@ -1,0 +1,12 @@
+[
+    {
+        "moduleFiles": [
+            {
+                "entries": [
+                ],
+                "filePath": "/home/ont/Documents/ToDoList/content/NavBar.qml"
+            }
+        ],
+        "moduleId": "content(todolist_content)"
+    }
+]
