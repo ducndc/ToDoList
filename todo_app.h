@@ -20,12 +20,11 @@ private:
     Gtk::Box hbox2{Gtk::ORIENTATION_HORIZONTAL};
     Gtk::Button btnDone, btnDelete;
 
-    Gtk::ListBoxRow* get_selected_row(void);
+    Gtk::ListBoxRow* GetSelectedRow(void);
     std::string CurrentDate(void);
-    void on_add(void);
-    void on_delete(void);
-    void on_done(void);
-    void on_save(void);
-    void load_tasks(void);
-    void save_tasks(void);
+    void AddTask(void);
+    void DeleteTask(void);
+    void SetTaskDone(void);
+    void LoadTasks(void);
+    void SaveTasks(void);
 };

@@ -38,18 +38,18 @@ TodoApp::TodoApp(void)
     hbox2.pack_start(btnSave, Gtk::PACK_EXPAND_WIDGET, 5);
     vbox.pack_start(hbox2, Gtk::PACK_SHRINK, 5);
 
-    btnAdd.signal_clicked().connect(sigc::mem_fun(*this, &TodoApp::on_add));
-    btnDelete.signal_clicked().connect(sigc::mem_fun(*this, &TodoApp::on_delete));
-    btnDone.signal_clicked().connect(sigc::mem_fun(*this, &TodoApp::on_done));
-    btnSave.signal_clicked().connect(sigc::mem_fun(*this, &TodoApp::on_save));
+    btnAdd.signal_clicked().connect(sigc::mem_fun(*this, &TodoApp::AddTask));
+    btnDelete.signal_clicked().connect(sigc::mem_fun(*this, &TodoApp::DeleteTask));
+    btnDone.signal_clicked().connect(sigc::mem_fun(*this, &TodoApp::SetTaskDone));
+    btnSave.signal_clicked().connect(sigc::mem_fun(*this, &TodoApp::SaveTasks));
 
-    load_tasks();
+    LoadTasks();
     show_all_children();
 }
 
 TodoApp::~TodoApp(void) 
 {
-    save_tasks();
+    SaveTasks();
 }
 
 std::string 
@@ -64,13 +64,13 @@ TodoApp::CurrentDate(void)
 }
 
 Gtk::ListBoxRow* 
-TodoApp::get_selected_row(void) 
+TodoApp::GetSelectedRow(void) 
 {
     return taskList.get_selected_row();
 }
 
 void 
-TodoApp::on_add(void) 
+TodoApp::AddTask(void) 
 {
     auto text = entry.get_text();
 
@@ -90,9 +90,9 @@ TodoApp::on_add(void)
 }
 
 void 
-TodoApp::on_delete(void) 
+TodoApp::DeleteTask(void) 
 {
-    auto row = get_selected_row();
+    auto row = GetSelectedRow();
 
     if (row) {
         taskList.remove(*row);
@@ -100,9 +100,9 @@ TodoApp::on_delete(void)
 }
 
 void 
-TodoApp::on_done(void) 
+TodoApp::SetTaskDone(void) 
 {
-    auto row = get_selected_row();
+    auto row = GetSelectedRow();
 
     if (row) {
         if (auto child = dynamic_cast<Gtk::Label*>(row->get_child())) {
@@ -122,7 +122,7 @@ TodoApp::on_done(void)
 }
 
 void 
-TodoApp::load_tasks(void) 
+TodoApp::LoadTasks(void) 
 {
     std::ifstream f(STORAGE_FILE);
 
@@ -151,7 +151,7 @@ TodoApp::load_tasks(void)
 }
 
 void 
-TodoApp::save_tasks(void) 
+TodoApp::SaveTasks(void) 
 {
     std::ofstream f(STORAGE_FILE, std::ios::trunc);
     
@@ -162,9 +162,4 @@ TodoApp::save_tasks(void)
             }
         }
     }
-}
-
-void TodoApp::on_save(void)
-{
-    save_tasks();
 }
