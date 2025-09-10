@@ -110,6 +110,12 @@ TodoApp::on_done(void)
 
             if (text.substr(0, 4) != "[x] ") {
                 child->set_text("[x] " + text);
+                Pango::AttrList attrs;
+                auto attr = Pango::Attribute::create_attr_strikethrough(true);
+                attrs.insert(attr);
+                child->set_attributes(attrs);
+
+                child->override_color(Gdk::RGBA("green"));    
             }
         }
     }
@@ -127,6 +133,15 @@ TodoApp::load_tasks(void)
     while (std::getline(f, line)) {
         auto label = Gtk::make_managed<Gtk::Label>(line);
         label->set_xalign(0);
+
+        if (line.rfind("[x]", 0) == 0) {
+            Pango::AttrList attrs;
+            auto attr = Pango::Attribute::create_attr_strikethrough(true);
+            attrs.insert(attr);
+            label->set_attributes(attrs);
+            label->override_color(Gdk::RGBA("green"));
+        }
+
         auto row = Gtk::make_managed<Gtk::ListBoxRow>();
         row->add(*label);
         taskList.append(*row);
