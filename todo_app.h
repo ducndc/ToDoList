@@ -1,6 +1,8 @@
 #pragma once
 #include <gtkmm.h>
 #include <string>
+#include <iomanip>
+#include <sstream>
 
 class TodoApp : public Gtk::Window {
 public:
@@ -19,6 +21,7 @@ private:
     Gtk::Button btnDone, btnDelete;
 
     Gtk::ListBoxRow* get_selected_row(void);
+    std::string CurrentDate(void);
     void on_add(void);
     void on_delete(void);
     void on_done(void);

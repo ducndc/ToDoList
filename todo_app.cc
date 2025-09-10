@@ -52,6 +52,17 @@ TodoApp::~TodoApp(void)
     save_tasks();
 }
 
+std::string 
+TodoApp::CurrentDate(void)
+{
+    auto t = std::time(nullptr);
+    std::tm tm{};
+    localtime_r(&t, &tm);
+    std::ostringstream oss;
+    oss << std::put_time(&tm, "%Y-%m-%d %H:%M");
+    return oss.str();
+}
+
 Gtk::ListBoxRow* 
 TodoApp::get_selected_row(void) 
 {
@@ -64,12 +75,16 @@ TodoApp::on_add(void)
     auto text = entry.get_text();
 
     if (!text.empty()) {
-        auto label = Gtk::make_managed<Gtk::Label>(text);
+        std::string datedTask = "[" + CurrentDate() + "] " + text;
+
+        auto label = Gtk::make_managed<Gtk::Label>(datedTask);
         label->set_xalign(0);
+        
         auto row = Gtk::make_managed<Gtk::ListBoxRow>();
         row->add(*label);
         taskList.append(*row);
         row->show_all();
+
         entry.set_text("");
     }
 }

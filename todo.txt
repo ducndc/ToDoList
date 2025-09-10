@@ -1,2 +1,2 @@
-Develop the anomal log detection
-Develop the script for mesh, steering, roaming on the Oxtobox 
+[2025-09-10 08:31] Develop the anomal log detection
+[2025-09-10 08:32] Develop the script for automation test, which run on the Octobox Server
