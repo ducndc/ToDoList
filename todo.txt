@@ -1,1 +1,2 @@
-[x] hi
+Develop the anomal log detection
+Develop the script for mesh, steering, roaming on the Oxtobox 

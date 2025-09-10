@@ -8,6 +8,16 @@ TodoApp::TodoApp(void)
     set_title("TODO APP");
     set_default_size(600, 900);
 
+    Pango::FontDescription font;
+    font.set_family("Sans");
+    font.set_size(14 * Pango::SCALE);
+    taskList.override_font(font);
+    entry.override_font(font);
+    btnAdd.override_font(font);
+    btnDone.override_font(font);
+    btnDelete.override_font(font);
+    btnSave.override_font(font);
+
     vbox.set_orientation(Gtk::ORIENTATION_VERTICAL);
     add(vbox);
 
