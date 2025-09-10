@@ -7,6 +7,7 @@ TodoApp::TodoApp(void)
 {
     set_title("TODO APP");
     set_default_size(600, 900);
+    maximize();
 
     Pango::FontDescription font;
     font.set_family("Sans");
@@ -17,6 +18,7 @@ TodoApp::TodoApp(void)
     btnDone.override_font(font);
     btnDelete.override_font(font);
     btnSave.override_font(font);
+    btnEdit.override_font(font);
 
     vbox.set_orientation(Gtk::ORIENTATION_VERTICAL);
     add(vbox);
@@ -33,12 +35,16 @@ TodoApp::TodoApp(void)
     btnDone.set_label("Mark Done");
     btnDelete.set_label("Delete");
     btnSave.set_label("Save");
+    btnEdit.set_label("Edit");
+
     hbox2.pack_start(btnDone, Gtk::PACK_EXPAND_WIDGET, 5);
+    hbox2.pack_start(btnEdit, Gtk::PACK_EXPAND_WIDGET, 5);
     hbox2.pack_start(btnDelete, Gtk::PACK_EXPAND_WIDGET, 5);
     hbox2.pack_start(btnSave, Gtk::PACK_EXPAND_WIDGET, 5);
     vbox.pack_start(hbox2, Gtk::PACK_SHRINK, 5);
 
     btnAdd.signal_clicked().connect(sigc::mem_fun(*this, &TodoApp::AddTask));
+    btnEdit.signal_clicked().connect(sigc::mem_fun(*this, &TodoApp::EditTask));
     btnDelete.signal_clicked().connect(sigc::mem_fun(*this, &TodoApp::DeleteTask));
     btnDone.signal_clicked().connect(sigc::mem_fun(*this, &TodoApp::SetTaskDone));
     btnSave.signal_clicked().connect(sigc::mem_fun(*this, &TodoApp::SaveTasks));
@@ -163,3 +169,39 @@ TodoApp::SaveTasks(void)
         }
     }
 }
+
+void 
+TodoApp::EditTask(void) 
+{
+    auto row = taskList.get_selected_row();
+    
+    if (row) {
+        if (auto child = dynamic_cast<Gtk::Label*>(row->get_child())) {
+            Gtk::Dialog dialog("Edit Task", *this);
+            dialog.set_default_size(800, 120);
+
+            Gtk::Box* content = dialog.get_content_area();
+
+            Gtk::Entry entry;
+            entry.set_text(child->get_text());
+
+            Pango::FontDescription font;
+            font.set_family("Sans");     
+            font.set_size(14 * Pango::SCALE);
+            entry.override_font(font);
+
+            entry.set_activates_default(true);
+            content->pack_start(entry, Gtk::PACK_EXPAND_WIDGET, 10);
+            entry.show();
+
+            dialog.add_button("Cancel", Gtk::RESPONSE_CANCEL);
+            dialog.add_button("Save", Gtk::RESPONSE_OK);
+
+            int result = dialog.run();
+            if (result == Gtk::RESPONSE_OK) {
+                child->set_text(entry.get_text());
+            }
+        }
+    }
+}
+

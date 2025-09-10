@@ -15,7 +15,7 @@ private:
 
     Gtk::Box hbox{Gtk::ORIENTATION_HORIZONTAL};
     Gtk::Entry entry;
-    Gtk::Button btnAdd, btnSave;
+    Gtk::Button btnAdd, btnSave, btnEdit;
 
     Gtk::Box hbox2{Gtk::ORIENTATION_HORIZONTAL};
     Gtk::Button btnDone, btnDelete;
@@ -24,6 +24,7 @@ private:
     std::string CurrentDate(void);
     void AddTask(void);
     void DeleteTask(void);
+    void EditTask(void);
     void SetTaskDone(void);
     void LoadTasks(void);
     void SaveTasks(void);
