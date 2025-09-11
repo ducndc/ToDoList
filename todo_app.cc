@@ -1,5 +1,6 @@
 #include "todo_app.h"
 #include <fstream>
+#include <iostream>
 
 static const std::string STORAGE_FILE = "todo.txt";
 
@@ -132,8 +133,10 @@ TodoApp::LoadTasks(void)
 {
     std::ifstream f(STORAGE_FILE);
 
-    if (!f) return;
-
+    if (!f) {
+        std::cout << "Not found " << STORAGE_FILE;
+        return;
+    }
     std::string line;
 
     while (std::getline(f, line)) {

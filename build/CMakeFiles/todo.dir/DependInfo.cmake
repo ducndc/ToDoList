@@ -8,12 +8,16 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/ducndc/Workspaces/ToDoList/main.cc" "CMakeFiles/todo.dir/main.cc.o" "gcc" "CMakeFiles/todo.dir/main.cc.o.d"
-  "/home/ducndc/Workspaces/ToDoList/todo_app.cc" "CMakeFiles/todo.dir/todo_app.cc.o" "gcc" "CMakeFiles/todo.dir/todo_app.cc.o.d"
+  "/home/ont/Documents/ToDoList/main.cc" "CMakeFiles/todo.dir/main.cc.o" "gcc" "CMakeFiles/todo.dir/main.cc.o.d"
+  "/home/ont/Documents/ToDoList/todo_app.cc" "CMakeFiles/todo.dir/todo_app.cc.o" "gcc" "CMakeFiles/todo.dir/todo_app.cc.o.d"
   )
 
-# Targets to which this target links.
-set(CMAKE_TARGET_LINKED_INFO_FILES
+# Targets to which this target links which contain Fortran sources.
+set(CMAKE_Fortran_TARGET_LINKED_INFO_FILES
+  )
+
+# Targets to which this target links which contain Fortran sources.
+set(CMAKE_Fortran_TARGET_FORWARD_LINKED_INFO_FILES
   )
 
 # Fortran module output directory.

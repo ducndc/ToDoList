@@ -3,4 +3,5 @@
 [x] [2025-09-10 08:35] Fix error about save topo on APw6
 [2025-09-10 09:19] Support to test EasyMesh certificate in the WiFi Allience Lab
 [2025-09-10 13:59] Write a todo program for me by cpp
-[2025-09-10 14:31] Fix error about database of STA, which is not connect wifi to Agent but database of mapd on Agent still this STA
+[2025-09-10 14:31] Fix error about database of STA, which is not connect wifi to Agent but database of mapd on Agent still this STA, with many STA connect and disconnect
+[2025-09-11 10:28] Debug error about intermittent connection of Agent (APw6)
