@@ -11,5 +11,7 @@ link_directories(${GTKMM_LIBRARY_DIRS})
 
 add_definitions(${GTKMM_CFLAGS_OTHER})
 
+find_package(OpenSSL REQUIRED)
+
 add_executable(todo main.cc todo_app.cc)
-target_link_libraries(todo ${GTKMM_LIBRARIES})
+target_link_libraries(todo ${GTKMM_LIBRARIES} OpenSSL::SSL OpenSSL::Crypto)

@@ -1,8 +1,68 @@
 #include "todo_app.h"
+
 #include <fstream>
 #include <iostream>
+#include <openssl/evp.h>
+#include <openssl/rand.h>
+#include <openssl/sha.h>
+#include <vector>
 
 static const std::string STORAGE_FILE = "todo.txt";
+
+// Key and IV for AES-256-CBC (for demo, use a secure key/iv management in production)
+const std::string AES_KEY = "0123456789abcdef0123456789abcdef"; // 32 bytes
+const std::string AES_IV  = "abcdef9876543210";                 // 16 bytes
+
+std::vector<unsigned char> 
+aes_encrypt(
+    const std::string& plaintext, 
+    const std::string& key) 
+{
+    std::vector<unsigned char> ciphertext(plaintext.size() + EVP_MAX_BLOCK_LENGTH);
+    int outlen1 = 0, outlen2 = 0;
+
+    EVP_CIPHER_CTX* ctx = EVP_CIPHER_CTX_new();
+    EVP_EncryptInit_ex(ctx, EVP_aes_256_cbc(), nullptr,
+                       reinterpret_cast<const unsigned char*>(key.data()),
+                       reinterpret_cast<const unsigned char*>(AES_IV.data()));
+
+    EVP_EncryptUpdate(ctx, ciphertext.data(), &outlen1,
+                      reinterpret_cast<const unsigned char*>(plaintext.data()), plaintext.size());
+    EVP_EncryptFinal_ex(ctx, ciphertext.data() + outlen1, &outlen2);
+
+    EVP_CIPHER_CTX_free(ctx);
+    ciphertext.resize(outlen1 + outlen2);
+    return ciphertext;
+}
+
+std::string 
+aes_decrypt(
+    const std::vector<unsigned char>& ciphertext, 
+    const std::string& key) 
+{
+    std::vector<unsigned char> plaintext(ciphertext.size());
+    int outlen1 = 0, outlen2 = 0;
+
+    EVP_CIPHER_CTX* ctx = EVP_CIPHER_CTX_new();
+    EVP_DecryptInit_ex(ctx, EVP_aes_256_cbc(), nullptr,
+                       reinterpret_cast<const unsigned char*>(key.data()),
+                       reinterpret_cast<const unsigned char*>(AES_IV.data()));
+
+    EVP_DecryptUpdate(ctx, plaintext.data(), &outlen1, ciphertext.data(), ciphertext.size());
+    EVP_DecryptFinal_ex(ctx, plaintext.data() + outlen1, &outlen2);
+
+    EVP_CIPHER_CTX_free(ctx);
+    plaintext.resize(outlen1 + outlen2);
+    return std::string(plaintext.begin(), plaintext.end());
+}
+
+std::string 
+password_to_aes_key(const std::string& password) 
+{
+    unsigned char hash[SHA256_DIGEST_LENGTH];
+    SHA256(reinterpret_cast<const unsigned char*>(password.data()), password.size(), hash);
+    return std::string(reinterpret_cast<char*>(hash), SHA256_DIGEST_LENGTH);
+}
 
 TodoApp::TodoApp(void) 
 {
@@ -43,6 +103,26 @@ TodoApp::TodoApp(void)
     hbox2.pack_start(btnDelete, Gtk::PACK_EXPAND_WIDGET, 5);
     hbox2.pack_start(btnSave, Gtk::PACK_EXPAND_WIDGET, 5);
     vbox.pack_start(hbox2, Gtk::PACK_SHRINK, 5);
+
+    Gtk::Dialog keyDialog("Enter Password", *this);
+    keyDialog.set_default_size(400, 100);
+    Gtk::Box* content = keyDialog.get_content_area();
+    Gtk::Entry keyInput;
+    keyInput.set_placeholder_text("Enter password");
+    keyInput.set_visibility(false); // Hide password input
+    content->pack_start(keyInput, Gtk::PACK_EXPAND_WIDGET, 10);
+    keyInput.show();
+    keyDialog.add_button("OK", Gtk::RESPONSE_OK);
+
+    int result = keyDialog.run();
+
+    if (result == Gtk::RESPONSE_OK) {
+        std::string password = keyInput.get_text();
+        aes_key = password_to_aes_key(password);
+    } else {
+        std::string password = "defaultpassword";
+        aes_key = password_to_aes_key(password);
+    }
 
     btnAdd.signal_clicked().connect(sigc::mem_fun(*this, &TodoApp::AddTask));
     btnEdit.signal_clicked().connect(sigc::mem_fun(*this, &TodoApp::EditTask));
@@ -131,19 +211,24 @@ TodoApp::SetTaskDone(void)
 void 
 TodoApp::LoadTasks(void) 
 {
-    std::ifstream f(STORAGE_FILE);
-
+    std::ifstream f(STORAGE_FILE, std::ios::binary);
     if (!f) {
-        std::cout << "Not found " << STORAGE_FILE;
+        std::cout << "Not found " << STORAGE_FILE << std::endl;
         return;
     }
-    std::string line;
+    while (f) {
+        uint32_t len = 0;
+        f.read(reinterpret_cast<char*>(&len), sizeof(len));
+        if (!f || len == 0) break;
+        std::vector<unsigned char> encrypted(len);
+        f.read(reinterpret_cast<char*>(encrypted.data()), len);
+        if (!f) break;
+        std::string decrypted = aes_decrypt(encrypted, aes_key);
 
-    while (std::getline(f, line)) {
-        auto label = Gtk::make_managed<Gtk::Label>(line);
+        auto label = Gtk::make_managed<Gtk::Label>(decrypted);
         label->set_xalign(0);
 
-        if (line.rfind("[x]", 0) == 0) {
+        if (decrypted.rfind("[x]", 0) == 0) {
             Pango::AttrList attrs;
             auto attr = Pango::Attribute::create_attr_strikethrough(true);
             attrs.insert(attr);
@@ -155,19 +240,22 @@ TodoApp::LoadTasks(void)
         row->add(*label);
         taskList.append(*row);
     }
-
     show_all_children();
 }
 
 void 
 TodoApp::SaveTasks(void) 
 {
-    std::ofstream f(STORAGE_FILE, std::ios::trunc);
-    
+    std::ofstream f(STORAGE_FILE, std::ios::binary | std::ios::trunc);
     for (auto row : taskList.get_children()) {
         if (auto r = dynamic_cast<Gtk::ListBoxRow*>(row)) {
             if (auto child = dynamic_cast<Gtk::Label*>(r->get_child())) {
-                f << child->get_text() << "\n";
+                std::string line = child->get_text();
+                auto encrypted = aes_encrypt(line, aes_key);
+                // Write length and data for each line
+                uint32_t len = encrypted.size();
+                f.write(reinterpret_cast<const char*>(&len), sizeof(len));
+                f.write(reinterpret_cast<const char*>(encrypted.data()), len);
             }
         }
     }

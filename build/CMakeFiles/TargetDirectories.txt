@@ -1,3 +1,0 @@
-/home/ont/Documents/ToDoList/build/CMakeFiles/todo.dir
-/home/ont/Documents/ToDoList/build/CMakeFiles/edit_cache.dir
-/home/ont/Documents/ToDoList/build/CMakeFiles/rebuild_cache.dir
